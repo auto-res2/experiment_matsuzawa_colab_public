@@ -267,181 +267,66 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 50.
+t line 53.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 50.
+input line 53.
 
 
 Package natbib Warning: Citation `author_year_efficient' on page 1 undefined on
- input line 55.
+ input line 59.
 
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 59.
+t line 63.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 59.
+input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/var/lib/texmf/fo
 nts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
 /base/8r.enc}]
 
 Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 72.
+ut line 77.
 
 
 Package natbib Warning: Citation `xia_2023_towards' on page 2 undefined on inpu
-t line 78.
+t line 84.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 2 undefined on 
-input line 79.
+input line 85.
 
 
 Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 80.
+ut line 86.
 
 
 Package natbib Warning: Citation `author_year_efficient' on page 2 undefined on
- input line 83.
+ input line 89.
 
 [2]
 Underfull \vbox (badness 2142) has occurred while \output is active [3]
-[4]
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.184 ...$K=8$\,: FID $3.41 \rightarrow 3.28$ (−
-                                                  3.8 \%), IS $9.74 \rightar...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...$K=4$\,: FID $3.62 \rightarrow 3.31$ (−
-                                                  8.6 \%), latency −39 \%,...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...rightarrow 3.31$ (−8.6 \%), latency −
-                                                  39 \%, energy −36 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...(−8.6 \%), latency −39 \%, energy −
-                                                  36 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...$K=3$\,: FID $3.60 \rightarrow 3.25$ (−
-                                                  9.7 \%), latency −41 \%,...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...rightarrow 3.25$ (−9.7 \%), latency −
-                                                  41 \%, energy −38 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...(−9.7 \%), latency −41 \%, energy −
-                                                  38 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...$K=2$\,: FID $3.91 \rightarrow 3.33$ (−
-                                                  14.8 \%), latency $19 \rig...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ... \%), latency $19 \rightarrow 10$ ms (−
-                                                  47 \%), energy $0.18 \righ...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...%), energy $0.18 \rightarrow 0.08$ J (−
-                                                  55 \%).
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ... DiT-XL/2: FID $6.8 \rightarrow 5.9$ (−
-                                                  0.9).
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd) [4]
 
 Package natbib Warning: Citation `xia_2023_towards' on page 5 undefined on inpu
-t line 216.
+t line 228.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 5 undefined on 
-input line 217.
+input line 229.
 
 [5]
 
 Package natbib Warning: Citation `bao_2022_analytic' on page 6 undefined on inp
-ut line 218.
+ut line 230.
 
 
 Package natbib Warning: Citation `airas2025' on page 6 undefined on input line 
-228.
+241.
 
 No file paper.bbl.
 
@@ -502,9 +387,10 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (6 pages, 153465 bytes).
+live/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmr8a.pfb>
+Output written on paper.pdf (6 pages, 161433 bytes).
 Transcript written on paper.log.
 This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 The top-level auxiliary file: paper.aux
@@ -789,183 +675,68 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 50.
+t line 53.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 50.
+input line 53.
 
 
 Package natbib Warning: Citation `author_year_efficient' on page 1 undefined on
- input line 55.
+ input line 59.
 
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 59.
+t line 63.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 59.
+input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/var/lib/texmf/fo
 nts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
 /base/8r.enc}]
 
 Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 72.
+ut line 77.
 
 
 Package natbib Warning: Citation `xia_2023_towards' on page 2 undefined on inpu
-t line 78.
+t line 84.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 2 undefined on 
-input line 79.
+input line 85.
 
 
 Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 80.
+ut line 86.
 
 
 Package natbib Warning: Citation `author_year_efficient' on page 2 undefined on
- input line 83.
+ input line 89.
 
 [2]
 Underfull \vbox (badness 2142) has occurred while \output is active [3]
-[4]
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.184 ...$K=8$\,: FID $3.41 \rightarrow 3.28$ (−
-                                                  3.8 \%), IS $9.74 \rightar...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...$K=4$\,: FID $3.62 \rightarrow 3.31$ (−
-                                                  8.6 \%), latency −39 \%,...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...rightarrow 3.31$ (−8.6 \%), latency −
-                                                  39 \%, energy −36 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...(−8.6 \%), latency −39 \%, energy −
-                                                  36 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...$K=3$\,: FID $3.60 \rightarrow 3.25$ (−
-                                                  9.7 \%), latency −41 \%,...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...rightarrow 3.25$ (−9.7 \%), latency −
-                                                  41 \%, energy −38 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...(−9.7 \%), latency −41 \%, energy −
-                                                  38 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...$K=2$\,: FID $3.91 \rightarrow 3.33$ (−
-                                                  14.8 \%), latency $19 \rig...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ... \%), latency $19 \rightarrow 10$ ms (−
-                                                  47 \%), energy $0.18 \righ...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...%), energy $0.18 \rightarrow 0.08$ J (−
-                                                  55 \%).
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ... DiT-XL/2: FID $6.8 \rightarrow 5.9$ (−
-                                                  0.9).
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd) [4]
 
 Package natbib Warning: Citation `xia_2023_towards' on page 5 undefined on inpu
-t line 216.
+t line 228.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 5 undefined on 
-input line 217.
+input line 229.
 
 [5]
 
 Package natbib Warning: Citation `bao_2022_analytic' on page 6 undefined on inp
-ut line 218.
+ut line 230.
 
 
 Package natbib Warning: Citation `airas2025' on page 6 undefined on input line 
-228.
+241.
 
-(./paper.bbl (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd))
+(./paper.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -989,7 +760,7 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb>
-Output written on paper.pdf (6 pages, 166190 bytes).
+Output written on paper.pdf (6 pages, 166923 bytes).
 Transcript written on paper.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -1261,137 +1032,20 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [1{/var/lib/texm
 f/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/d
 vips/base/8r.enc}] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-[2] [3] [4]
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.184 ...$K=8$\,: FID $3.41 \rightarrow 3.28$ (−
-                                                  3.8 \%), IS $9.74 \rightar...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...$K=4$\,: FID $3.62 \rightarrow 3.31$ (−
-                                                  8.6 \%), latency −39 \%,...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...rightarrow 3.31$ (−8.6 \%), latency −
-                                                  39 \%, energy −36 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...(−8.6 \%), latency −39 \%, energy −
-                                                  36 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...$K=3$\,: FID $3.60 \rightarrow 3.25$ (−
-                                                  9.7 \%), latency −41 \%,...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...rightarrow 3.25$ (−9.7 \%), latency −
-                                                  41 \%, energy −38 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...(−9.7 \%), latency −41 \%, energy −
-                                                  38 \%.
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...$K=2$\,: FID $3.91 \rightarrow 3.33$ (−
-                                                  14.8 \%), latency $19 \rig...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ... \%), latency $19 \rightarrow 10$ ms (−
-                                                  47 \%), energy $0.18 \righ...
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...%), energy $0.18 \rightarrow 0.08$ J (−
-                                                  55 \%).
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ... DiT-XL/2: FID $6.8 \rightarrow 5.9$ (−
-                                                  0.9).
-[5] (./paper.bbl (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd))
-[6] (./paper.aux) )
-(see the transcript file for additional information) </home/runner/.texlive2023
-/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/times/utmr8a.pfb>
-Output written on paper.pdf (6 pages, 166271 bytes).
+[2] [3] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd) [4] [5]
+(./paper.bbl) [6] (./paper.aux) ) </home/runner/.texlive2023/texmf-var/fonts/pk
+/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b>
+Output written on paper.pdf (6 pages, 166996 bytes).
 Transcript written on paper.log.
