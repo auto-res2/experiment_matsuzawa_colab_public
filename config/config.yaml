@@ -1,0 +1,10 @@
+data:
+  file: data/residual_bank.npz  # will be created if missing
+  n: 2048                       # synthetic bank size for quick test
+  synthetic: true               # set false when real bank exists
+
+train:
+  batch: 256
+  lr: 5e-4
+  epochs: 10        # early stop via max_steps takes precedence
+  max_steps: 1000
