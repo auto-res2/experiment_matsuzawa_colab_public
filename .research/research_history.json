@@ -6,5 +6,16 @@
     "efficient denoising diffusion",
     "diffusion distillation speed",
     "accelerated score-based models"
+  ],
+  "research_study_list": [
+    {
+      "title": "Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner"
+    },
+    {
+      "title": "Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration"
+    },
+    {
+      "title": "Efficient Denoising Diffusion via Probabilistic Masking"
+    }
   ]
 }
