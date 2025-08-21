@@ -19,64 +19,28 @@ Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
@@ -249,873 +213,88 @@ ntourlua.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+de.tex))) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 No file paper.aux.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-! Undefined control sequence.
-\@title ...ters Eliminate Angular Bias in Two\hyp 
-                                                  {}Step Diffusion Sampling
-l.48 
-     
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-! Undefined control sequence.
-l.50 Ultra\hyp
-              {}low\hyp{}step samplers can generate one\hyp{}megapixel image...
-
-! Undefined control sequence.
-l.50 Ultra\hyp{}low\hyp
-                       {}step samplers can generate one\hyp{}megapixel image...
-
-! Undefined control sequence.
-l.50 ...ow\hyp{}step samplers can generate one\hyp
-                                                  {}megapixel images in mill...
-
-! Undefined control sequence.
-l.50 ...images in milliseconds, yet even a two\hyp
-                                                  {}degree mis\hyp{}orientat...
-
-! Undefined control sequence.
-l.50 ...econds, yet even a two\hyp{}degree mis\hyp
-                                                  {}orientation between the ...
-
-! Undefined control sequence.
-l.50 ...ise $\hat{\varepsilon}$ and the ground\hyp
-                                                  {}truth noise $\varepsilon...
-
-! Undefined control sequence.
-l.50 ...produces colour cast and blur. A cross\hyp
-                                                  {}model audit of thirty pu...
-
-! Undefined control sequence.
-l.50 ...repsilon}$, and varies smoothly in log\hyp
-                                                  {}time. We leverage this s...
-
-! Undefined control sequence.
-l.50 ...ge this structure with the Orientation\hyp
-                                                  {}Correcting Residual Adap...
-
-! Undefined control sequence.
-l.50 ...cting Residual Adapter (OCRA), a 1.5~M\hyp
-                                                  {}parameter network that i...
-
-! Undefined control sequence.
-l.50 ...esidual bank generated without extra U\hyp
-                                                  {}Net calls. OCRA adds few...
-
-! Undefined control sequence.
-l.50 ...o any explicit solver, and keeps the U\hyp
-                                                  {}Net frozen. Two U\hyp{}N...
-
-! Undefined control sequence.
-l.50 ...and keeps the U\hyp{}Net frozen. Two U\hyp
-                                                  {}Net plus two OCRA calls ...
-
-! Undefined control sequence.
-l.50 ...}Net plus two OCRA calls obtain a four\hyp
-                                                  {}fold speed\hyp{}up on Im...
-
-! Undefined control sequence.
-l.50 ...RA calls obtain a four\hyp{}fold speed\hyp
-                                                  {}up on ImageNet\hyp{}64 w...
-
-! Undefined control sequence.
-l.50 ...ur\hyp{}fold speed\hyp{}up on ImageNet\hyp
-                                                  {}64 while improving FID f...
-
-! Undefined control sequence.
-l.50 ... 3.33. A single OCRA trained on Stable\hyp
-                                                  {}Diffusion~v1.5 boosts CL...
-
-! Undefined control sequence.
-l.50 ...Stable\hyp{}Diffusion~v1.5 boosts CLIP\hyp
-                                                  {}Score and human preferen...
-
-! Undefined control sequence.
-l.50 ...\hyp{}Score and human preference on SD\hyp
-                                                  {}v2.1\hyp{}768, DreamShap...
-
-! Undefined control sequence.
-l.50 ...e and human preference on SD\hyp{}v2.1\hyp
-                                                  {}768, DreamShaper\hyp{}8 ...
-
-! Undefined control sequence.
-l.50 ... on SD\hyp{}v2.1\hyp{}768, DreamShaper\hyp
-                                                  {}8 and DiT\hyp{}XL/2 with...
-
-! Undefined control sequence.
-l.50 ...1\hyp{}768, DreamShaper\hyp{}8 and DiT\hyp
-                                                  {}XL/2 without fine\hyp{}t...
-
-! Undefined control sequence.
-l.50 ...\hyp{}8 and DiT\hyp{}XL/2 without fine\hyp
-                                                  {}tuning. Spectral\hyp{}no...
-
-! Undefined control sequence.
-l.50 ...L/2 without fine\hyp{}tuning. Spectral\hyp
-                                                  {}norm clipping and an ada...
-
-! Undefined control sequence.
-l.50 ...yp{}norm clipping and an adaptive half\hyp
-                                                  {}step gate provably bound...
-
-! Undefined control sequence.
-l.50 ...r and removed all divergences in a one\hyp
-                                                  {}million\hyp{}sample stre...
-
-! Undefined control sequence.
-l.50 ... all divergences in a one\hyp{}million\hyp
-                                                  {}sample stress test. OCRA...
-
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 50.
-
-! Undefined control sequence.
-l.50 ... \cite{xia_2023_towards} and transport\hyp
-                                                  {}aware correctors \cite{y...
+t line 83.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 50.
-
-! Undefined control sequence.
-l.50 ...hierarchical} while remaining training\hyp
-                                                  {}free for the backbone.
-! Undefined control sequence.
-l.55 ... and video, but their adoption in real\hyp
-                                                  {}time or resource\hyp{}co...
-
-! Undefined control sequence.
-l.55 ...adoption in real\hyp{}time or resource\hyp
-                                                  {}constrained settings is ...
+input line 83.
 
 
 Package natbib Warning: Citation `author_year_efficient' on page 1 undefined on
- input line 55.
-
-! Undefined control sequence.
-l.55 ...icit solvers reduce NFEs to the single\hyp
-                                                  {}digit regime, yet practi...
-
-! Undefined control sequence.
-l.55 ...yet practitioners still observe washed\hyp
-                                                  {}out colours, softened ed...
-
-! Undefined control sequence.
-l.55 ... systematic angular bias between the U\hyp
-                                                  {}Net\textquoteright{}s no...
-
-! Undefined control sequence.
-l.55 ... step size, a seemingly negligible one\hyp
-                                                  {}degree misalignment casc...
-
-! Undefined control sequence.
-l.57 ...vering ImageNet, Stable Diffusion fine\hyp
-                                                  {}tunes, DiT video and Bar...
-
-! Undefined control sequence.
-l.57 ...the residual changes smoothly with log\hyp
-                                                  {}time, with an empirical ...
-
-! Undefined control sequence.
-l.57 ...ions suggest that a tiny, shared, time\hyp
-                                                  {}aware network could lear...
-
-! Undefined control sequence.
-l.59 ...ion error. Timestep tuners such as DPM\hyp
-                                                  {}Aligner refine the integ...
+ input line 91.
 
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 59.
-
-! Undefined control sequence.
-l.59 ...ted \cite{xia_2023_towards}. Transport\hyp
-                                                  {}aware methods exemplifie...
+t line 95.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 59.
+input line 95.
 
-! Undefined control sequence.
-l.59 ...et \cite{yu_2023_hierarchical}. Full U\hyp
-                                                  {}Net distillation erases ...
-
-! Undefined control sequence.
-l.59 ...ich negates the practical gains of low\hyp
-                                                  {}step sampling.
-! Undefined control sequence.
-l.61 We therefore propose the Orientation\hyp
-                                             {}Correcting Residual Adapter (...
-
-! Undefined control sequence.
-l.61 ...Adapter (OCRA). OCRA is a frozen micro\hyp
-                                                  {}network that (i) is trai...
-
-! Undefined control sequence.
-l.61 ...ual bank produced without additional U\hyp
-                                                  {}Net calls; (ii) introduc...
-
-! Undefined control sequence.
-l.61 ...v) fits entirely in cache, enabling on\hyp
-                                                  {}device deployment.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}]
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Undefined control sequence.
-<argument> Universal micro\hyp 
-                               {}adapter
-l.66 ...item \textbf{Universal micro\hyp{}adapter}
-                                                  \; We design OCRA, a unive...
-
-! Undefined control sequence.
-l.66 ...r}\; We design OCRA, a universal 1.5~M\hyp
-                                                  {}parameter adapter that p...
-
-! Undefined control sequence.
-l.67 ...; We introduce an inexpensive residual\hyp
-                                                  {}bank pipeline with optio...
-
-! Undefined control sequence.
-l.67 ...compression that shrinks storage eight\hyp
-                                                  {}fold.
-! Undefined control sequence.
-l.68 ... safety mechanism\textemdash{}spectral\hyp
-                                                  {}norm clipping combined w...
-
-! Undefined control sequence.
-l.68 ...lipping combined with an adaptive half\hyp
-                                                  {}step gate\textemdash{}th...
-
-! Undefined control sequence.
-l.69 ... orientation correction covering speed\hyp
-                                                  {}quality trade\hyp{}off, ...
-
-! Undefined control sequence.
-l.69 ...tion covering speed\hyp{}quality trade\hyp
-                                                  {}off, zero\hyp{}shot back...
-
-! Undefined control sequence.
-l.69 ...peed\hyp{}quality trade\hyp{}off, zero\hyp
-                                                  {}shot backbone transfer a...
-
-! Undefined control sequence.
-l.69 ...\hyp{}shot backbone transfer and a one\hyp
-                                                  {}million\hyp{}sample stre...
-
-! Undefined control sequence.
-l.69 ...ckbone transfer and a one\hyp{}million\hyp
-                                                  {}sample stress test.
-
-Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 72.
-
-! Undefined control sequence.
-l.76 ...work but refines the schedule. The DPM\hyp
-                                                  {}Aligner conditions the U...
-
-! Undefined control sequence.
-l.76 ... The DPM\hyp{}Aligner conditions the U\hyp
-                                                  {}Net on a corrected times...
-
-! Undefined control sequence.
-l.76 ...nd gains up to three FID points on ten\hyp
-                                                  {}step LSUN, yet orientati...
-
-
-Package natbib Warning: Citation `xia_2023_towards' on page 2 undefined on inpu
-t line 76.
-
-! Undefined control sequence.
-<argument> Transport\hyp 
-                         {}aware variational schemes
-l.76 ...{Transport\hyp{}aware variational schemes}
-                                                  , typified by HSIVI, build...
-
-! Undefined control sequence.
-l.76 ...fied by HSIVI, build hierarchical semi\hyp
-                                                  {}implicit layers that pro...
-
-
-Package natbib Warning: Citation `yu_2023_hierarchical' on page 2 undefined on 
-input line 76.
-
-! Undefined control sequence.
-<argument> Variance\hyp 
-                        {}estimation methods
-l.76 ...,\textit{Variance\hyp{}estimation methods}
-                                                   such as Analytic\hyp{}DPM...
-
-! Undefined control sequence.
-l.76 ...{}estimation methods} such as Analytic\hyp
-                                                  {}DPM compute closed\hyp{}...
-
-! Undefined control sequence.
-l.76 ...ch as Analytic\hyp{}DPM compute closed\hyp
-                                                  {}form reverse variances a...
-
-
-Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 76.
-
-! Undefined control sequence.
-l.76 ... additive gains when stacking Analytic\hyp
-                                                  {}DPM with OCRA. (4)\,\tex...
-
-! Undefined control sequence.
-l.76 ...{Distillation} compresses the entire U\hyp
-                                                  {}Net into a shallow stude...
-
-
-Package natbib Warning: Citation `author_year_efficient' on page 2 undefined on
- input line 78.
-
-! Undefined control sequence.
-l.80 ... families and uniquely provides a drop\hyp
-                                                  {}in, backbone\hyp{}agnost...
-
-! Undefined control sequence.
-l.80 ...uely provides a drop\hyp{}in, backbone\hyp
-                                                  {}agnostic solution.
-! Undefined control sequence.
-l.94 ...at{\varepsilon}$, and Lipschitz in log\hyp
-                                                  {}time.
-! Undefined control sequence.
-l.96 ...antees solver stability: if $g$ is $L$\hyp
-                                                  {}Lipschitz in its score a...
-
-[2]
-! Undefined control sequence.
-l.98 ...efore aim to learn a lightweight, time\hyp
-                                                  {}aware scalar predictor $...
-
-! Undefined control sequence.
-<argument> Residual\hyp 
-                        {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction}\__mar...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction}\__mar...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi Residual\hyp 
-                                                  {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi Residual\hyp 
-                                                  {}Bank Construction}{\thep...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-l.103 ...roughly 2\,000 images and run a forty\hyp
-                                                  {}step high\hyp{}quality E...
-
-! Undefined control sequence.
-l.103 ...images and run a forty\hyp{}step high\hyp
-                                                  {}quality EDM forward pass...
-
-! Undefined control sequence.
-l.103 ...$\varepsilon_{\star}$ without extra U\hyp
-                                                  {}Net calls, after which w...
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
-! Undefined control sequence.
-l.103 ... in \texttt{FP16}. An optional thirty\hyp
-                                                  {}two\hyp{}component PCA b...
-
-! Undefined control sequence.
-l.103 ...tt{FP16}. An optional thirty\hyp{}two\hyp
-                                                  {}component PCA basis comp...
-
-! Undefined control sequence.
-l.103 ... compresses $\Delta\varepsilon$ eight\hyp
-                                                  {}fold with negligible loss.
-! Undefined control sequence.
-l.106 OCRA ingests (i) $x_{\tau}$ down\hyp
-                                          {}sampled to $64\times64$, (ii) $\...
-
-! Undefined control sequence.
-l.106 ...nusoidal embedding $e(\tau)$. A depth\hyp
-                                                  {}wise $5\times5$ stem fee...
-
-! Undefined control sequence.
-l.106 ...}wise $5\times5$ stem feeds four FiLM\hyp
-                                                  {}conditioned depth\hyp{}w...
-
-! Undefined control sequence.
-l.106 ...eeds four FiLM\hyp{}conditioned depth\hyp
-                                                  {}wise convolution blocks,...
-
-! Undefined control sequence.
-l.113 subject to spectral\hyp
-                             {}norm clipping that enforces $\lVert\tilde{\De...
-
-! Undefined control sequence.
-<recently read> \lesssim 
-                         
-l.113 ...teps (\,\raisebox{0.6pt}{\tiny$\lesssim$}
-                                                  \,25~min on one NVIDIA A100).
-
-! Undefined control sequence.
-<argument> K\hyp 
-                 {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum}\__mark_debug...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum}\__mark_debug...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ... thesubsection\endcsname }\fi K\hyp 
-                                                  {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ... thesubsection\endcsname }\fi K\hyp 
-                                                  {}Curriculum}{\thepage }{\...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> adaptive half\hyp 
-                             {}step gate
-l.127 ...$  \Comment{adaptive half\hyp{}step gate}
-                                                  
-! Undefined control sequence.
-l.137 ...2$ the pipeline makes two expensive U\hyp
-                                                  {}Net calls and two lightw...
-
-! Undefined control sequence.
-l.137 ...A calls, averaging 24~ms per ImageNet\hyp
-                                                  {}64 sample; OCRA contribu...
-
-[3]
-! Undefined control sequence.
-l.140 Replacing the $5\times5$ 2\hyp
-                                    {}D stem with a 1\hyp{}D or 3\hyp{}D dep...
-
-! Undefined control sequence.
-l.140 ...the $5\times5$ 2\hyp{}D stem with a 1\hyp
-                                                  {}D or 3\hyp{}D depth\hyp{...
-
-! Undefined control sequence.
-l.140 ...5$ 2\hyp{}D stem with a 1\hyp{}D or 3\hyp
-                                                  {}D depth\hyp{}wise stem a...
-
-! Undefined control sequence.
-l.140 ...tem with a 1\hyp{}D or 3\hyp{}D depth\hyp
-                                                  {}wise stem adapts OCRA to...
-
-! Undefined control sequence.
-l.140 ...dio and DiT video, respectively. Fine\hyp
-                                                  {}tuning only the new stem...
-
-! Undefined control sequence.
-<argument> Experiment~1: Speed\hyp 
-                                   {}Quality on ImageNet\hyp {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...csname }\fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...csname }\fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}{\thepage }{\@current...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-l.146   \item \textbf{Backbone}\; EDM\hyp
-                                         {}U\hyp{}Net\hyp{}64 (public release)
-! Undefined control sequence.
-l.146   \item \textbf{Backbone}\; EDM\hyp{}U\hyp
-                                                {}Net\hyp{}64 (public release)
-! Undefined control sequence.
-l.146 ...extbf{Backbone}\; EDM\hyp{}U\hyp{}Net\hyp
-                                                  {}64 (public release)
-! Undefined control sequence.
-l.148   \item \textbf{Schedules}\; DPM\hyp
-                                          {}Solver\raisebox{0.6pt}{++} with ...
-
-! Undefined control sequence.
-l.148 ...0.6pt}{++} with $K\in\{2,3,4,8\}$; 40\hyp
-                                                  {}step EDM serves as upper...
-
-! Undefined control sequence.
-l.150 ...subscript{50k}, Inception Score, CLIP\hyp
-                                                  {}Score, LPIPS, latency (C...
-
-! Undefined control sequence.
-<argument> Experiment~2: Zero\hyp 
-                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}\...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}\...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...dcsname }\fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...dcsname }\fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}{...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-l.156 ...textbf{Training bank}\; 20\,000 LAION\hyp
-                                                  {}Aesthetic images, backbo...
-
-! Undefined control sequence.
-l.156 ...yp{}Aesthetic images, backbone Stable\hyp
-                                                  {}Diffusion~v1.5
-! Undefined control sequence.
-l.157 ...em \textbf{Evaluation backbones}\; SD\hyp
-                                                  {}v2.1\hyp{}768, DreamShap...
-
-! Undefined control sequence.
-l.157 ...{Evaluation backbones}\; SD\hyp{}v2.1\hyp
-                                                  {}768, DreamShaper\hyp{}8,...
-
-! Undefined control sequence.
-l.157 ...\; SD\hyp{}v2.1\hyp{}768, DreamShaper\hyp
-                                                  {}8, DiT\hyp{}XL/2
-! Undefined control sequence.
-l.157 ...2.1\hyp{}768, DreamShaper\hyp{}8, DiT\hyp
-                                                  {}XL/2
-! Undefined control sequence.
-l.158   \item \textbf{Prompts}\; 5\,000 COCO\hyp
-                                                {}2014 captions for SD pipel...
-
-! Undefined control sequence.
-l.158 ...4 captions for SD pipelines; ImageNet\hyp
-                                                  {}256 class names for DiT
-! Undefined control sequence.
-l.159   \item \textbf{Sampler}\; four\hyp
-                                         {}step DPM\hyp{}Solver\raisebox{0.6...
-
-! Undefined control sequence.
-l.159 ...\textbf{Sampler}\; four\hyp{}step DPM\hyp
-                                                  {}Solver\raisebox{0.6pt}{+...
-
-! Undefined control sequence.
-l.160   \item \textbf{Metrics}\; CLIP\hyp
-                                         {}Score, aesthetic predictor, five\...
-
-! Undefined control sequence.
-l.160 ...hyp{}Score, aesthetic predictor, five\hyp
-                                                  {}rater human A/B, FID\tex...
-
-! Undefined control sequence.
-l.165   \item \textbf{Backbone}\; EDM\hyp
-                                         {}U\hyp{}Net\hyp{}64
-! Undefined control sequence.
-l.165   \item \textbf{Backbone}\; EDM\hyp{}U\hyp
-                                                {}Net\hyp{}64
-! Undefined control sequence.
-l.165 ...extbf{Backbone}\; EDM\hyp{}U\hyp{}Net\hyp
-                                                  {}64
-! Undefined control sequence.
-l.166   \item \textbf{Schedule}\; fixed two\hyp
-                                               {}step solver
-! Undefined control sequence.
-l.174 ... hash and environment YAML, write SHA\hyp
-                                                  {}256 checksums for output...
-
-! Undefined control sequence.
-l.174 ...12~GB VRAM on an RTX~3090 after batch\hyp
-                                                  {}size adjustment.
-! Undefined control sequence.
-<argument> ImageNet\hyp 
-                        {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi ImageNet\hyp 
-                                                  {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi ImageNet\hyp 
-                                                  {}64}{\thepage }{\@current...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-[4]
-! Undefined control sequence.
-l.186 Even the aggressive two\hyp
-                                 {}step configuration with OCRA surpasses th...
-
-! Undefined control sequence.
-l.186 ...uration with OCRA surpasses the eight\hyp
-                                                  {}step baseline, confirmin...
-
-! Undefined control sequence.
-<argument> Zero\hyp 
-                    {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer}\__mark_de...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer}\__mark_de...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...esubsection\endcsname }\fi Zero\hyp 
-                                                  {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...esubsection\endcsname }\fi Zero\hyp 
-                                                  {}Shot Transfer}{\thepage ...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-l.189 A single OCRA trained on Stable\hyp
-                                         {}Diffusion~v1.5 improves unseen ba...
-
-! Undefined control sequence.
-l.191   \item SD\hyp
-                    {}v2.1\hyp{}768\; CLIP\hyp{}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.191   \item SD\hyp{}v2.1\hyp
-                              {}768\; CLIP\hyp{}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.191   \item SD\hyp{}v2.1\hyp{}768\; CLIP\hyp
-                                              {}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.192   \item DreamShaper\hyp
-                             {}8\; CLIP\hyp{}Score $+0.62$, Aesthetic $+0.41...
-
-! Undefined control sequence.
-l.192   \item DreamShaper\hyp{}8\; CLIP\hyp
-                                           {}Score $+0.62$, Aesthetic $+0.41...
-
-! Undefined control sequence.
-l.193   \item DiT\hyp
-                     {}XL/2\; FID 6.8$\rightarrow$5.9 ($-0.9$).
-! Undefined control sequence.
-l.209   \item DPM\hyp
-                     {}Aligner at $K{=}2$ reports FID~3.57 on ImageNet\hyp{}...
-
-! Undefined control sequence.
-l.209 ... $K{=}2$ reports FID~3.57 on ImageNet\hyp
-                                                  {}64 \cite{xia_2023_toward...
-
-
-Package natbib Warning: Citation `xia_2023_towards' on page 5 undefined on inpu
-t line 209.
-
-
-Package natbib Warning: Citation `yu_2023_hierarchical' on page 5 undefined on 
-input line 210.
-
-! Undefined control sequence.
-l.211   \item Stacking Analytic\hyp
-                                   {}DPM with OCRA further drops FID to 3.26...
-
-
-Package natbib Warning: Citation `bao_2022_analytic' on page 5 undefined on inp
-ut line 211.
-
-! Undefined control sequence.
-l.219 We have shown that a persistent one\hyp
-                                             {}to\hyp{}three\hyp{}degree ang...
-
-! Undefined control sequence.
-l.219 ...e shown that a persistent one\hyp{}to\hyp
-                                                  {}three\hyp{}degree angula...
-
-! Undefined control sequence.
-l.219 ...t a persistent one\hyp{}to\hyp{}three\hyp
-                                                  {}degree angular bias betw...
-
-! Undefined control sequence.
-l.219 ...e primary quality bottleneck of ultra\hyp
-                                                  {}low\hyp{}step diffusion ...
-
-! Undefined control sequence.
-l.219 ... quality bottleneck of ultra\hyp{}low\hyp
-                                                  {}step diffusion sampling....
-
-! Undefined control sequence.
-l.219 ...ion sampling. By exploiting the small\hyp
-                                                  {}norm, near\hyp{}collinea...
-
-! Undefined control sequence.
-l.219 ... exploiting the small\hyp{}norm, near\hyp
-                                                  {}collinear and time\hyp{}...
-
-! Undefined control sequence.
-l.219 ...p{}norm, near\hyp{}collinear and time\hyp
-                                                  {}smooth structure of the ...
-
-! Undefined control sequence.
-l.219 ...ual field we introduced OCRA, a 1.5~M\hyp
-                                                  {}parameter adapter that c...
-
-! Undefined control sequence.
-l.219 ...igible runtime cost, and delivers two\hyp
-                                                  {} to five\hyp{}fold speed...
-
-! Undefined control sequence.
-l.219 ... cost, and delivers two\hyp{} to five\hyp
-                                                  {}fold speed\hyp{}ups and ...
-
-! Undefined control sequence.
-l.219 ...ers two\hyp{} to five\hyp{}fold speed\hyp
-                                                  {}ups and up to 55\% energ...
-
-! Undefined control sequence.
-l.219 ...xtensive experiments demonstrate zero\hyp
-                                                  {}shot transfer across bac...
-
-! Undefined control sequence.
-l.219 ...erical robustness secured by spectral\hyp
-                                                  {}norm clipping and adapti...
-
-! Undefined control sequence.
-l.219 ...ve gating, and superiority over state\hyp
-                                                  {}of\hyp{}the\hyp{}art tim...
-
-! Undefined control sequence.
-l.219 ...g, and superiority over state\hyp{}of\hyp
-                                                  {}the\hyp{}art timestep an...
-
-! Undefined control sequence.
-l.219 ...periority over state\hyp{}of\hyp{}the\hyp
-                                                  {}art timestep and transpo...
-
-
-Package natbib Warning: Citation `airas2025' on page 5 undefined on input line 
-221.
-
 No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[5] (./paper.aux)
+[2] (./paper.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1124,22 +303,13 @@ Package rerunfilecheck Warning: File `paper.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
- )
-(see the transcript file for additional information)</usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on paper.pdf (5 pages, 170756 bytes).
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb>
+Output written on paper.pdf (2 pages, 73811 bytes).
 Transcript written on paper.log.
 This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 The top-level auxiliary file: paper.aux
@@ -1150,10 +320,9 @@ Warning--empty author in author_year_efficient
 Warning--empty journal in author_year_efficient
 Warning--empty year in author_year_efficient
 Warning--empty year in author_year_efficient
-Warning--empty journal in bao_2022_analytic
 Warning--empty journal in xia_2023_towards
 Warning--empty journal in yu_2023_hierarchical
-(There were 8 warnings)
+(There were 7 warnings)
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -1175,64 +344,28 @@ Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
@@ -1405,894 +538,99 @@ ntourlua.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+de.tex))) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./paper.aux)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./paper.out) (./paper.out)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-! Undefined control sequence.
-\@title ...ters Eliminate Angular Bias in Two\hyp 
-                                                  {}Step Diffusion Sampling
-l.48 
-     
+(./paper.out) (./paper.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-! Undefined control sequence.
-l.50 Ultra\hyp
-              {}low\hyp{}step samplers can generate one\hyp{}megapixel image...
-
-! Undefined control sequence.
-l.50 Ultra\hyp{}low\hyp
-                       {}step samplers can generate one\hyp{}megapixel image...
-
-! Undefined control sequence.
-l.50 ...ow\hyp{}step samplers can generate one\hyp
-                                                  {}megapixel images in mill...
-
-! Undefined control sequence.
-l.50 ...images in milliseconds, yet even a two\hyp
-                                                  {}degree mis\hyp{}orientat...
-
-! Undefined control sequence.
-l.50 ...econds, yet even a two\hyp{}degree mis\hyp
-                                                  {}orientation between the ...
-
-! Undefined control sequence.
-l.50 ...ise $\hat{\varepsilon}$ and the ground\hyp
-                                                  {}truth noise $\varepsilon...
-
-! Undefined control sequence.
-l.50 ...produces colour cast and blur. A cross\hyp
-                                                  {}model audit of thirty pu...
-
-! Undefined control sequence.
-l.50 ...repsilon}$, and varies smoothly in log\hyp
-                                                  {}time. We leverage this s...
-
-! Undefined control sequence.
-l.50 ...ge this structure with the Orientation\hyp
-                                                  {}Correcting Residual Adap...
-
-! Undefined control sequence.
-l.50 ...cting Residual Adapter (OCRA), a 1.5~M\hyp
-                                                  {}parameter network that i...
-
-! Undefined control sequence.
-l.50 ...esidual bank generated without extra U\hyp
-                                                  {}Net calls. OCRA adds few...
-
-! Undefined control sequence.
-l.50 ...o any explicit solver, and keeps the U\hyp
-                                                  {}Net frozen. Two U\hyp{}N...
-
-! Undefined control sequence.
-l.50 ...and keeps the U\hyp{}Net frozen. Two U\hyp
-                                                  {}Net plus two OCRA calls ...
-
-! Undefined control sequence.
-l.50 ...}Net plus two OCRA calls obtain a four\hyp
-                                                  {}fold speed\hyp{}up on Im...
-
-! Undefined control sequence.
-l.50 ...RA calls obtain a four\hyp{}fold speed\hyp
-                                                  {}up on ImageNet\hyp{}64 w...
-
-! Undefined control sequence.
-l.50 ...ur\hyp{}fold speed\hyp{}up on ImageNet\hyp
-                                                  {}64 while improving FID f...
-
-! Undefined control sequence.
-l.50 ... 3.33. A single OCRA trained on Stable\hyp
-                                                  {}Diffusion~v1.5 boosts CL...
-
-! Undefined control sequence.
-l.50 ...Stable\hyp{}Diffusion~v1.5 boosts CLIP\hyp
-                                                  {}Score and human preferen...
-
-! Undefined control sequence.
-l.50 ...\hyp{}Score and human preference on SD\hyp
-                                                  {}v2.1\hyp{}768, DreamShap...
-
-! Undefined control sequence.
-l.50 ...e and human preference on SD\hyp{}v2.1\hyp
-                                                  {}768, DreamShaper\hyp{}8 ...
-
-! Undefined control sequence.
-l.50 ... on SD\hyp{}v2.1\hyp{}768, DreamShaper\hyp
-                                                  {}8 and DiT\hyp{}XL/2 with...
-
-! Undefined control sequence.
-l.50 ...1\hyp{}768, DreamShaper\hyp{}8 and DiT\hyp
-                                                  {}XL/2 without fine\hyp{}t...
-
-! Undefined control sequence.
-l.50 ...\hyp{}8 and DiT\hyp{}XL/2 without fine\hyp
-                                                  {}tuning. Spectral\hyp{}no...
-
-! Undefined control sequence.
-l.50 ...L/2 without fine\hyp{}tuning. Spectral\hyp
-                                                  {}norm clipping and an ada...
-
-! Undefined control sequence.
-l.50 ...yp{}norm clipping and an adaptive half\hyp
-                                                  {}step gate provably bound...
-
-! Undefined control sequence.
-l.50 ...r and removed all divergences in a one\hyp
-                                                  {}million\hyp{}sample stre...
-
-! Undefined control sequence.
-l.50 ... all divergences in a one\hyp{}million\hyp
-                                                  {}sample stress test. OCRA...
-
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 50.
-
-! Undefined control sequence.
-l.50 ... \cite{xia_2023_towards} and transport\hyp
-                                                  {}aware correctors \cite{y...
+t line 83.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 50.
-
-! Undefined control sequence.
-l.50 ...hierarchical} while remaining training\hyp
-                                                  {}free for the backbone.
-! Undefined control sequence.
-l.55 ... and video, but their adoption in real\hyp
-                                                  {}time or resource\hyp{}co...
-
-! Undefined control sequence.
-l.55 ...adoption in real\hyp{}time or resource\hyp
-                                                  {}constrained settings is ...
+input line 83.
 
 
 Package natbib Warning: Citation `author_year_efficient' on page 1 undefined on
- input line 55.
-
-! Undefined control sequence.
-l.55 ...icit solvers reduce NFEs to the single\hyp
-                                                  {}digit regime, yet practi...
-
-! Undefined control sequence.
-l.55 ...yet practitioners still observe washed\hyp
-                                                  {}out colours, softened ed...
-
-! Undefined control sequence.
-l.55 ... systematic angular bias between the U\hyp
-                                                  {}Net\textquoteright{}s no...
-
-! Undefined control sequence.
-l.55 ... step size, a seemingly negligible one\hyp
-                                                  {}degree misalignment casc...
-
-! Undefined control sequence.
-l.57 ...vering ImageNet, Stable Diffusion fine\hyp
-                                                  {}tunes, DiT video and Bar...
-
-! Undefined control sequence.
-l.57 ...the residual changes smoothly with log\hyp
-                                                  {}time, with an empirical ...
-
-! Undefined control sequence.
-l.57 ...ions suggest that a tiny, shared, time\hyp
-                                                  {}aware network could lear...
-
-! Undefined control sequence.
-l.59 ...ion error. Timestep tuners such as DPM\hyp
-                                                  {}Aligner refine the integ...
+ input line 91.
 
 
 Package natbib Warning: Citation `xia_2023_towards' on page 1 undefined on inpu
-t line 59.
-
-! Undefined control sequence.
-l.59 ...ted \cite{xia_2023_towards}. Transport\hyp
-                                                  {}aware methods exemplifie...
+t line 95.
 
 
 Package natbib Warning: Citation `yu_2023_hierarchical' on page 1 undefined on 
-input line 59.
+input line 95.
 
-! Undefined control sequence.
-l.59 ...et \cite{yu_2023_hierarchical}. Full U\hyp
-                                                  {}Net distillation erases ...
-
-! Undefined control sequence.
-l.59 ...ich negates the practical gains of low\hyp
-                                                  {}step sampling.
-! Undefined control sequence.
-l.61 We therefore propose the Orientation\hyp
-                                             {}Correcting Residual Adapter (...
-
-! Undefined control sequence.
-l.61 ...Adapter (OCRA). OCRA is a frozen micro\hyp
-                                                  {}network that (i) is trai...
-
-! Undefined control sequence.
-l.61 ...ual bank produced without additional U\hyp
-                                                  {}Net calls; (ii) introduc...
-
-! Undefined control sequence.
-l.61 ...v) fits entirely in cache, enabling on\hyp
-                                                  {}device deployment.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}]
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Undefined control sequence.
-<argument> Universal micro\hyp 
-                               {}adapter
-l.66 ...item \textbf{Universal micro\hyp{}adapter}
-                                                  \; We design OCRA, a unive...
-
-! Undefined control sequence.
-l.66 ...r}\; We design OCRA, a universal 1.5~M\hyp
-                                                  {}parameter adapter that p...
-
-! Undefined control sequence.
-l.67 ...; We introduce an inexpensive residual\hyp
-                                                  {}bank pipeline with optio...
-
-! Undefined control sequence.
-l.67 ...compression that shrinks storage eight\hyp
-                                                  {}fold.
-! Undefined control sequence.
-l.68 ... safety mechanism\textemdash{}spectral\hyp
-                                                  {}norm clipping combined w...
-
-! Undefined control sequence.
-l.68 ...lipping combined with an adaptive half\hyp
-                                                  {}step gate\textemdash{}th...
-
-! Undefined control sequence.
-l.69 ... orientation correction covering speed\hyp
-                                                  {}quality trade\hyp{}off, ...
-
-! Undefined control sequence.
-l.69 ...tion covering speed\hyp{}quality trade\hyp
-                                                  {}off, zero\hyp{}shot back...
-
-! Undefined control sequence.
-l.69 ...peed\hyp{}quality trade\hyp{}off, zero\hyp
-                                                  {}shot backbone transfer a...
-
-! Undefined control sequence.
-l.69 ...\hyp{}shot backbone transfer and a one\hyp
-                                                  {}million\hyp{}sample stre...
-
-! Undefined control sequence.
-l.69 ...ckbone transfer and a one\hyp{}million\hyp
-                                                  {}sample stress test.
-
-Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 72.
-
-! Undefined control sequence.
-l.76 ...work but refines the schedule. The DPM\hyp
-                                                  {}Aligner conditions the U...
-
-! Undefined control sequence.
-l.76 ... The DPM\hyp{}Aligner conditions the U\hyp
-                                                  {}Net on a corrected times...
-
-! Undefined control sequence.
-l.76 ...nd gains up to three FID points on ten\hyp
-                                                  {}step LSUN, yet orientati...
-
-
-Package natbib Warning: Citation `xia_2023_towards' on page 2 undefined on inpu
-t line 76.
-
-! Undefined control sequence.
-<argument> Transport\hyp 
-                         {}aware variational schemes
-l.76 ...{Transport\hyp{}aware variational schemes}
-                                                  , typified by HSIVI, build...
-
-! Undefined control sequence.
-l.76 ...fied by HSIVI, build hierarchical semi\hyp
-                                                  {}implicit layers that pro...
-
-
-Package natbib Warning: Citation `yu_2023_hierarchical' on page 2 undefined on 
-input line 76.
-
-! Undefined control sequence.
-<argument> Variance\hyp 
-                        {}estimation methods
-l.76 ...,\textit{Variance\hyp{}estimation methods}
-                                                   such as Analytic\hyp{}DPM...
-
-! Undefined control sequence.
-l.76 ...{}estimation methods} such as Analytic\hyp
-                                                  {}DPM compute closed\hyp{}...
-
-! Undefined control sequence.
-l.76 ...ch as Analytic\hyp{}DPM compute closed\hyp
-                                                  {}form reverse variances a...
-
-
-Package natbib Warning: Citation `bao_2022_analytic' on page 2 undefined on inp
-ut line 76.
-
-! Undefined control sequence.
-l.76 ... additive gains when stacking Analytic\hyp
-                                                  {}DPM with OCRA. (4)\,\tex...
-
-! Undefined control sequence.
-l.76 ...{Distillation} compresses the entire U\hyp
-                                                  {}Net into a shallow stude...
-
-
-Package natbib Warning: Citation `author_year_efficient' on page 2 undefined on
- input line 78.
-
-! Undefined control sequence.
-l.80 ... families and uniquely provides a drop\hyp
-                                                  {}in, backbone\hyp{}agnost...
-
-! Undefined control sequence.
-l.80 ...uely provides a drop\hyp{}in, backbone\hyp
-                                                  {}agnostic solution.
-! Undefined control sequence.
-l.94 ...at{\varepsilon}$, and Lipschitz in log\hyp
-                                                  {}time.
-! Undefined control sequence.
-l.96 ...antees solver stability: if $g$ is $L$\hyp
-                                                  {}Lipschitz in its score a...
-
-[2]
-! Undefined control sequence.
-l.98 ...efore aim to learn a lightweight, time\hyp
-                                                  {}aware scalar predictor $...
-
-! Undefined control sequence.
-<argument> Residual\hyp 
-                        {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction}\__mar...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction}\__mar...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi Residual\hyp 
-                                                  {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi Residual\hyp 
-                                                  {}Bank Construction}{\thep...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-l.103 ...roughly 2\,000 images and run a forty\hyp
-                                                  {}step high\hyp{}quality E...
-
-! Undefined control sequence.
-l.103 ...images and run a forty\hyp{}step high\hyp
-                                                  {}quality EDM forward pass...
-
-! Undefined control sequence.
-l.103 ...$\varepsilon_{\star}$ without extra U\hyp
-                                                  {}Net calls, after which w...
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
-! Undefined control sequence.
-l.103 ... in \texttt{FP16}. An optional thirty\hyp
-                                                  {}two\hyp{}component PCA b...
-
-! Undefined control sequence.
-l.103 ...tt{FP16}. An optional thirty\hyp{}two\hyp
-                                                  {}component PCA basis comp...
-
-! Undefined control sequence.
-l.103 ... compresses $\Delta\varepsilon$ eight\hyp
-                                                  {}fold with negligible loss.
-! Undefined control sequence.
-l.106 OCRA ingests (i) $x_{\tau}$ down\hyp
-                                          {}sampled to $64\times64$, (ii) $\...
-
-! Undefined control sequence.
-l.106 ...nusoidal embedding $e(\tau)$. A depth\hyp
-                                                  {}wise $5\times5$ stem fee...
-
-! Undefined control sequence.
-l.106 ...}wise $5\times5$ stem feeds four FiLM\hyp
-                                                  {}conditioned depth\hyp{}w...
-
-! Undefined control sequence.
-l.106 ...eeds four FiLM\hyp{}conditioned depth\hyp
-                                                  {}wise convolution blocks,...
-
-! Undefined control sequence.
-l.113 subject to spectral\hyp
-                             {}norm clipping that enforces $\lVert\tilde{\De...
-
-! Undefined control sequence.
-<recently read> \lesssim 
-                         
-l.113 ...teps (\,\raisebox{0.6pt}{\tiny$\lesssim$}
-                                                  \,25~min on one NVIDIA A100).
-
-! Undefined control sequence.
-<argument> K\hyp 
-                 {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum}\__mark_debug...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum}\__mark_debug...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ... thesubsection\endcsname }\fi K\hyp 
-                                                  {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ... thesubsection\endcsname }\fi K\hyp 
-                                                  {}Curriculum}{\thepage }{\...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> adaptive half\hyp 
-                             {}step gate
-l.127 ...$  \Comment{adaptive half\hyp{}step gate}
-                                                  
-! Undefined control sequence.
-l.137 ...2$ the pipeline makes two expensive U\hyp
-                                                  {}Net calls and two lightw...
-
-! Undefined control sequence.
-l.137 ...A calls, averaging 24~ms per ImageNet\hyp
-                                                  {}64 sample; OCRA contribu...
-
-[3]
-! Undefined control sequence.
-l.140 Replacing the $5\times5$ 2\hyp
-                                    {}D stem with a 1\hyp{}D or 3\hyp{}D dep...
-
-! Undefined control sequence.
-l.140 ...the $5\times5$ 2\hyp{}D stem with a 1\hyp
-                                                  {}D or 3\hyp{}D depth\hyp{...
-
-! Undefined control sequence.
-l.140 ...5$ 2\hyp{}D stem with a 1\hyp{}D or 3\hyp
-                                                  {}D depth\hyp{}wise stem a...
-
-! Undefined control sequence.
-l.140 ...tem with a 1\hyp{}D or 3\hyp{}D depth\hyp
-                                                  {}wise stem adapts OCRA to...
-
-! Undefined control sequence.
-l.140 ...dio and DiT video, respectively. Fine\hyp
-                                                  {}tuning only the new stem...
-
-! Undefined control sequence.
-<argument> Experiment~1: Speed\hyp 
-                                   {}Quality on ImageNet\hyp {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...csname }\fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...csname }\fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}{\thepage }{\@current...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-l.146   \item \textbf{Backbone}\; EDM\hyp
-                                         {}U\hyp{}Net\hyp{}64 (public release)
-! Undefined control sequence.
-l.146   \item \textbf{Backbone}\; EDM\hyp{}U\hyp
-                                                {}Net\hyp{}64 (public release)
-! Undefined control sequence.
-l.146 ...extbf{Backbone}\; EDM\hyp{}U\hyp{}Net\hyp
-                                                  {}64 (public release)
-! Undefined control sequence.
-l.148   \item \textbf{Schedules}\; DPM\hyp
-                                          {}Solver\raisebox{0.6pt}{++} with ...
-
-! Undefined control sequence.
-l.148 ...0.6pt}{++} with $K\in\{2,3,4,8\}$; 40\hyp
-                                                  {}step EDM serves as upper...
-
-! Undefined control sequence.
-l.150 ...subscript{50k}, Inception Score, CLIP\hyp
-                                                  {}Score, LPIPS, latency (C...
-
-! Undefined control sequence.
-<argument> Experiment~2: Zero\hyp 
-                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}\...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}\...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...dcsname }\fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...dcsname }\fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}{...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-l.156 ...textbf{Training bank}\; 20\,000 LAION\hyp
-                                                  {}Aesthetic images, backbo...
-
-! Undefined control sequence.
-l.156 ...yp{}Aesthetic images, backbone Stable\hyp
-                                                  {}Diffusion~v1.5
-! Undefined control sequence.
-l.157 ...em \textbf{Evaluation backbones}\; SD\hyp
-                                                  {}v2.1\hyp{}768, DreamShap...
-
-! Undefined control sequence.
-l.157 ...{Evaluation backbones}\; SD\hyp{}v2.1\hyp
-                                                  {}768, DreamShaper\hyp{}8,...
-
-! Undefined control sequence.
-l.157 ...\; SD\hyp{}v2.1\hyp{}768, DreamShaper\hyp
-                                                  {}8, DiT\hyp{}XL/2
-! Undefined control sequence.
-l.157 ...2.1\hyp{}768, DreamShaper\hyp{}8, DiT\hyp
-                                                  {}XL/2
-! Undefined control sequence.
-l.158   \item \textbf{Prompts}\; 5\,000 COCO\hyp
-                                                {}2014 captions for SD pipel...
-
-! Undefined control sequence.
-l.158 ...4 captions for SD pipelines; ImageNet\hyp
-                                                  {}256 class names for DiT
-! Undefined control sequence.
-l.159   \item \textbf{Sampler}\; four\hyp
-                                         {}step DPM\hyp{}Solver\raisebox{0.6...
-
-! Undefined control sequence.
-l.159 ...\textbf{Sampler}\; four\hyp{}step DPM\hyp
-                                                  {}Solver\raisebox{0.6pt}{+...
-
-! Undefined control sequence.
-l.160   \item \textbf{Metrics}\; CLIP\hyp
-                                         {}Score, aesthetic predictor, five\...
-
-! Undefined control sequence.
-l.160 ...hyp{}Score, aesthetic predictor, five\hyp
-                                                  {}rater human A/B, FID\tex...
-
-! Undefined control sequence.
-l.165   \item \textbf{Backbone}\; EDM\hyp
-                                         {}U\hyp{}Net\hyp{}64
-! Undefined control sequence.
-l.165   \item \textbf{Backbone}\; EDM\hyp{}U\hyp
-                                                {}Net\hyp{}64
-! Undefined control sequence.
-l.165 ...extbf{Backbone}\; EDM\hyp{}U\hyp{}Net\hyp
-                                                  {}64
-! Undefined control sequence.
-l.166   \item \textbf{Schedule}\; fixed two\hyp
-                                               {}step solver
-! Undefined control sequence.
-l.174 ... hash and environment YAML, write SHA\hyp
-                                                  {}256 checksums for output...
-
-! Undefined control sequence.
-l.174 ...12~GB VRAM on an RTX~3090 after batch\hyp
-                                                  {}size adjustment.
-! Undefined control sequence.
-<argument> ImageNet\hyp 
-                        {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi ImageNet\hyp 
-                                                  {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi ImageNet\hyp 
-                                                  {}64}{\thepage }{\@current...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-[4]
-! Undefined control sequence.
-l.186 Even the aggressive two\hyp
-                                 {}step configuration with OCRA surpasses th...
-
-! Undefined control sequence.
-l.186 ...uration with OCRA surpasses the eight\hyp
-                                                  {}step baseline, confirmin...
-
-! Undefined control sequence.
-<argument> Zero\hyp 
-                    {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer}\__mark_de...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer}\__mark_de...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...esubsection\endcsname }\fi Zero\hyp 
-                                                  {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...esubsection\endcsname }\fi Zero\hyp 
-                                                  {}Shot Transfer}{\thepage ...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-l.189 A single OCRA trained on Stable\hyp
-                                         {}Diffusion~v1.5 improves unseen ba...
-
-! Undefined control sequence.
-l.191   \item SD\hyp
-                    {}v2.1\hyp{}768\; CLIP\hyp{}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.191   \item SD\hyp{}v2.1\hyp
-                              {}768\; CLIP\hyp{}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.191   \item SD\hyp{}v2.1\hyp{}768\; CLIP\hyp
-                                              {}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.192   \item DreamShaper\hyp
-                             {}8\; CLIP\hyp{}Score $+0.62$, Aesthetic $+0.41...
-
-! Undefined control sequence.
-l.192   \item DreamShaper\hyp{}8\; CLIP\hyp
-                                           {}Score $+0.62$, Aesthetic $+0.41...
-
-! Undefined control sequence.
-l.193   \item DiT\hyp
-                     {}XL/2\; FID 6.8$\rightarrow$5.9 ($-0.9$).
-! Undefined control sequence.
-l.209   \item DPM\hyp
-                     {}Aligner at $K{=}2$ reports FID~3.57 on ImageNet\hyp{}...
-
-! Undefined control sequence.
-l.209 ... $K{=}2$ reports FID~3.57 on ImageNet\hyp
-                                                  {}64 \cite{xia_2023_toward...
-
-
-Package natbib Warning: Citation `xia_2023_towards' on page 5 undefined on inpu
-t line 209.
-
-
-Package natbib Warning: Citation `yu_2023_hierarchical' on page 5 undefined on 
-input line 210.
-
-! Undefined control sequence.
-l.211   \item Stacking Analytic\hyp
-                                   {}DPM with OCRA further drops FID to 3.26...
-
-
-Package natbib Warning: Citation `bao_2022_analytic' on page 5 undefined on inp
-ut line 211.
-
-! Undefined control sequence.
-l.219 We have shown that a persistent one\hyp
-                                             {}to\hyp{}three\hyp{}degree ang...
-
-! Undefined control sequence.
-l.219 ...e shown that a persistent one\hyp{}to\hyp
-                                                  {}three\hyp{}degree angula...
-
-! Undefined control sequence.
-l.219 ...t a persistent one\hyp{}to\hyp{}three\hyp
-                                                  {}degree angular bias betw...
-
-! Undefined control sequence.
-l.219 ...e primary quality bottleneck of ultra\hyp
-                                                  {}low\hyp{}step diffusion ...
-
-! Undefined control sequence.
-l.219 ... quality bottleneck of ultra\hyp{}low\hyp
-                                                  {}step diffusion sampling....
-
-! Undefined control sequence.
-l.219 ...ion sampling. By exploiting the small\hyp
-                                                  {}norm, near\hyp{}collinea...
-
-! Undefined control sequence.
-l.219 ... exploiting the small\hyp{}norm, near\hyp
-                                                  {}collinear and time\hyp{}...
-
-! Undefined control sequence.
-l.219 ...p{}norm, near\hyp{}collinear and time\hyp
-                                                  {}smooth structure of the ...
-
-! Undefined control sequence.
-l.219 ...ual field we introduced OCRA, a 1.5~M\hyp
-                                                  {}parameter adapter that c...
-
-! Undefined control sequence.
-l.219 ...igible runtime cost, and delivers two\hyp
-                                                  {} to five\hyp{}fold speed...
-
-! Undefined control sequence.
-l.219 ... cost, and delivers two\hyp{} to five\hyp
-                                                  {}fold speed\hyp{}ups and ...
-
-! Undefined control sequence.
-l.219 ...ers two\hyp{} to five\hyp{}fold speed\hyp
-                                                  {}ups and up to 55\% energ...
-
-! Undefined control sequence.
-l.219 ...xtensive experiments demonstrate zero\hyp
-                                                  {}shot transfer across bac...
-
-! Undefined control sequence.
-l.219 ...erical robustness secured by spectral\hyp
-                                                  {}norm clipping and adapti...
-
-! Undefined control sequence.
-l.219 ...ve gating, and superiority over state\hyp
-                                                  {}of\hyp{}the\hyp{}art tim...
-
-! Undefined control sequence.
-l.219 ...g, and superiority over state\hyp{}of\hyp
-                                                  {}the\hyp{}art timestep an...
-
-! Undefined control sequence.
-l.219 ...periority over state\hyp{}of\hyp{}the\hyp
-                                                  {}art timestep and transpo...
-
-
-Package natbib Warning: Citation `airas2025' on page 5 undefined on input line 
-221.
-
-(./paper.bbl [5])
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd) (./paper.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[6] (./paper.aux
+[2] (./paper.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
 
-) )
-(see the transcript file for additional information)</usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on paper.pdf (6 pages, 176191 bytes).
+) )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb>
+Output written on paper.pdf (2 pages, 74615 bytes).
 Transcript written on paper.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -2315,64 +653,28 @@ Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
@@ -2545,827 +847,68 @@ ntourlua.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+de.tex))) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./paper.aux)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./paper.out) (./paper.out)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-! Undefined control sequence.
-\@title ...ters Eliminate Angular Bias in Two\hyp 
-                                                  {}Step Diffusion Sampling
-l.48 
-     
+(./paper.out) (./paper.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-! Undefined control sequence.
-l.50 Ultra\hyp
-              {}low\hyp{}step samplers can generate one\hyp{}megapixel image...
-
-! Undefined control sequence.
-l.50 Ultra\hyp{}low\hyp
-                       {}step samplers can generate one\hyp{}megapixel image...
-
-! Undefined control sequence.
-l.50 ...ow\hyp{}step samplers can generate one\hyp
-                                                  {}megapixel images in mill...
-
-! Undefined control sequence.
-l.50 ...images in milliseconds, yet even a two\hyp
-                                                  {}degree mis\hyp{}orientat...
-
-! Undefined control sequence.
-l.50 ...econds, yet even a two\hyp{}degree mis\hyp
-                                                  {}orientation between the ...
-
-! Undefined control sequence.
-l.50 ...ise $\hat{\varepsilon}$ and the ground\hyp
-                                                  {}truth noise $\varepsilon...
-
-! Undefined control sequence.
-l.50 ...produces colour cast and blur. A cross\hyp
-                                                  {}model audit of thirty pu...
-
-! Undefined control sequence.
-l.50 ...repsilon}$, and varies smoothly in log\hyp
-                                                  {}time. We leverage this s...
-
-! Undefined control sequence.
-l.50 ...ge this structure with the Orientation\hyp
-                                                  {}Correcting Residual Adap...
-
-! Undefined control sequence.
-l.50 ...cting Residual Adapter (OCRA), a 1.5~M\hyp
-                                                  {}parameter network that i...
-
-! Undefined control sequence.
-l.50 ...esidual bank generated without extra U\hyp
-                                                  {}Net calls. OCRA adds few...
-
-! Undefined control sequence.
-l.50 ...o any explicit solver, and keeps the U\hyp
-                                                  {}Net frozen. Two U\hyp{}N...
-
-! Undefined control sequence.
-l.50 ...and keeps the U\hyp{}Net frozen. Two U\hyp
-                                                  {}Net plus two OCRA calls ...
-
-! Undefined control sequence.
-l.50 ...}Net plus two OCRA calls obtain a four\hyp
-                                                  {}fold speed\hyp{}up on Im...
-
-! Undefined control sequence.
-l.50 ...RA calls obtain a four\hyp{}fold speed\hyp
-                                                  {}up on ImageNet\hyp{}64 w...
-
-! Undefined control sequence.
-l.50 ...ur\hyp{}fold speed\hyp{}up on ImageNet\hyp
-                                                  {}64 while improving FID f...
-
-! Undefined control sequence.
-l.50 ... 3.33. A single OCRA trained on Stable\hyp
-                                                  {}Diffusion~v1.5 boosts CL...
-
-! Undefined control sequence.
-l.50 ...Stable\hyp{}Diffusion~v1.5 boosts CLIP\hyp
-                                                  {}Score and human preferen...
-
-! Undefined control sequence.
-l.50 ...\hyp{}Score and human preference on SD\hyp
-                                                  {}v2.1\hyp{}768, DreamShap...
-
-! Undefined control sequence.
-l.50 ...e and human preference on SD\hyp{}v2.1\hyp
-                                                  {}768, DreamShaper\hyp{}8 ...
-
-! Undefined control sequence.
-l.50 ... on SD\hyp{}v2.1\hyp{}768, DreamShaper\hyp
-                                                  {}8 and DiT\hyp{}XL/2 with...
-
-! Undefined control sequence.
-l.50 ...1\hyp{}768, DreamShaper\hyp{}8 and DiT\hyp
-                                                  {}XL/2 without fine\hyp{}t...
-
-! Undefined control sequence.
-l.50 ...\hyp{}8 and DiT\hyp{}XL/2 without fine\hyp
-                                                  {}tuning. Spectral\hyp{}no...
-
-! Undefined control sequence.
-l.50 ...L/2 without fine\hyp{}tuning. Spectral\hyp
-                                                  {}norm clipping and an ada...
-
-! Undefined control sequence.
-l.50 ...yp{}norm clipping and an adaptive half\hyp
-                                                  {}step gate provably bound...
-
-! Undefined control sequence.
-l.50 ...r and removed all divergences in a one\hyp
-                                                  {}million\hyp{}sample stre...
-
-! Undefined control sequence.
-l.50 ... all divergences in a one\hyp{}million\hyp
-                                                  {}sample stress test. OCRA...
-
-! Undefined control sequence.
-l.50 ... \cite{xia_2023_towards} and transport\hyp
-                                                  {}aware correctors \cite{y...
-
-! Undefined control sequence.
-l.50 ...hierarchical} while remaining training\hyp
-                                                  {}free for the backbone.
-! Undefined control sequence.
-l.55 ... and video, but their adoption in real\hyp
-                                                  {}time or resource\hyp{}co...
-
-! Undefined control sequence.
-l.55 ...adoption in real\hyp{}time or resource\hyp
-                                                  {}constrained settings is ...
-
-! Undefined control sequence.
-l.55 ...icit solvers reduce NFEs to the single\hyp
-                                                  {}digit regime, yet practi...
-
-! Undefined control sequence.
-l.55 ...yet practitioners still observe washed\hyp
-                                                  {}out colours, softened ed...
-
-! Undefined control sequence.
-l.55 ... systematic angular bias between the U\hyp
-                                                  {}Net\textquoteright{}s no...
-
-! Undefined control sequence.
-l.55 ... step size, a seemingly negligible one\hyp
-                                                  {}degree misalignment casc...
-
-! Undefined control sequence.
-l.57 ...vering ImageNet, Stable Diffusion fine\hyp
-                                                  {}tunes, DiT video and Bar...
-
-! Undefined control sequence.
-l.57 ...the residual changes smoothly with log\hyp
-                                                  {}time, with an empirical ...
-
-! Undefined control sequence.
-l.57 ...ions suggest that a tiny, shared, time\hyp
-                                                  {}aware network could lear...
-
-! Undefined control sequence.
-l.59 ...ion error. Timestep tuners such as DPM\hyp
-                                                  {}Aligner refine the integ...
-
-! Undefined control sequence.
-l.59 ...ted \cite{xia_2023_towards}. Transport\hyp
-                                                  {}aware methods exemplifie...
-
-! Undefined control sequence.
-l.59 ...et \cite{yu_2023_hierarchical}. Full U\hyp
-                                                  {}Net distillation erases ...
-
-! Undefined control sequence.
-l.59 ...ich negates the practical gains of low\hyp
-                                                  {}step sampling.
-! Undefined control sequence.
-l.61 We therefore propose the Orientation\hyp
-                                             {}Correcting Residual Adapter (...
-
-! Undefined control sequence.
-l.61 ...Adapter (OCRA). OCRA is a frozen micro\hyp
-                                                  {}network that (i) is trai...
-
-! Undefined control sequence.
-l.61 ...ual bank produced without additional U\hyp
-                                                  {}Net calls; (ii) introduc...
-
-! Undefined control sequence.
-l.61 ...v) fits entirely in cache, enabling on\hyp
-                                                  {}device deployment.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}]
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Undefined control sequence.
-<argument> Universal micro\hyp 
-                               {}adapter
-l.66 ...item \textbf{Universal micro\hyp{}adapter}
-                                                  \; We design OCRA, a unive...
-
-! Undefined control sequence.
-l.66 ...r}\; We design OCRA, a universal 1.5~M\hyp
-                                                  {}parameter adapter that p...
-
-! Undefined control sequence.
-l.67 ...; We introduce an inexpensive residual\hyp
-                                                  {}bank pipeline with optio...
-
-! Undefined control sequence.
-l.67 ...compression that shrinks storage eight\hyp
-                                                  {}fold.
-! Undefined control sequence.
-l.68 ... safety mechanism\textemdash{}spectral\hyp
-                                                  {}norm clipping combined w...
-
-! Undefined control sequence.
-l.68 ...lipping combined with an adaptive half\hyp
-                                                  {}step gate\textemdash{}th...
-
-! Undefined control sequence.
-l.69 ... orientation correction covering speed\hyp
-                                                  {}quality trade\hyp{}off, ...
-
-! Undefined control sequence.
-l.69 ...tion covering speed\hyp{}quality trade\hyp
-                                                  {}off, zero\hyp{}shot back...
-
-! Undefined control sequence.
-l.69 ...peed\hyp{}quality trade\hyp{}off, zero\hyp
-                                                  {}shot backbone transfer a...
-
-! Undefined control sequence.
-l.69 ...\hyp{}shot backbone transfer and a one\hyp
-                                                  {}million\hyp{}sample stre...
-
-! Undefined control sequence.
-l.69 ...ckbone transfer and a one\hyp{}million\hyp
-                                                  {}sample stress test.
-! Undefined control sequence.
-l.76 ...work but refines the schedule. The DPM\hyp
-                                                  {}Aligner conditions the U...
-
-! Undefined control sequence.
-l.76 ... The DPM\hyp{}Aligner conditions the U\hyp
-                                                  {}Net on a corrected times...
-
-! Undefined control sequence.
-l.76 ...nd gains up to three FID points on ten\hyp
-                                                  {}step LSUN, yet orientati...
-
-! Undefined control sequence.
-<argument> Transport\hyp 
-                         {}aware variational schemes
-l.76 ...{Transport\hyp{}aware variational schemes}
-                                                  , typified by HSIVI, build...
-
-! Undefined control sequence.
-l.76 ...fied by HSIVI, build hierarchical semi\hyp
-                                                  {}implicit layers that pro...
-
-! Undefined control sequence.
-<argument> Variance\hyp 
-                        {}estimation methods
-l.76 ...,\textit{Variance\hyp{}estimation methods}
-                                                   such as Analytic\hyp{}DPM...
-
-! Undefined control sequence.
-l.76 ...{}estimation methods} such as Analytic\hyp
-                                                  {}DPM compute closed\hyp{}...
-
-! Undefined control sequence.
-l.76 ...ch as Analytic\hyp{}DPM compute closed\hyp
-                                                  {}form reverse variances a...
-
-! Undefined control sequence.
-l.76 ... additive gains when stacking Analytic\hyp
-                                                  {}DPM with OCRA. (4)\,\tex...
-
-! Undefined control sequence.
-l.76 ...{Distillation} compresses the entire U\hyp
-                                                  {}Net into a shallow stude...
-
-! Undefined control sequence.
-l.80 ... families and uniquely provides a drop\hyp
-                                                  {}in, backbone\hyp{}agnost...
-
-! Undefined control sequence.
-l.80 ...uely provides a drop\hyp{}in, backbone\hyp
-                                                  {}agnostic solution.
-! Undefined control sequence.
-l.94 ...at{\varepsilon}$, and Lipschitz in log\hyp
-                                                  {}time.
-! Undefined control sequence.
-l.96 ...antees solver stability: if $g$ is $L$\hyp
-                                                  {}Lipschitz in its score a...
-
-[2]
-! Undefined control sequence.
-l.98 ...efore aim to learn a lightweight, time\hyp
-                                                  {}aware scalar predictor $...
-
-! Undefined control sequence.
-<argument> Residual\hyp 
-                        {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction}\__mar...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi Residual\hyp 
-                                                  {}Bank Construction}\__mar...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi Residual\hyp 
-                                                  {}Bank Construction
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi Residual\hyp 
-                                                  {}Bank Construction}{\thep...
-l.102 \subsection{Residual\hyp{}Bank Construction}
-                                                  
-! Undefined control sequence.
-l.103 ...roughly 2\,000 images and run a forty\hyp
-                                                  {}step high\hyp{}quality E...
-
-! Undefined control sequence.
-l.103 ...images and run a forty\hyp{}step high\hyp
-                                                  {}quality EDM forward pass...
-
-! Undefined control sequence.
-l.103 ...$\varepsilon_{\star}$ without extra U\hyp
-                                                  {}Net calls, after which w...
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
-! Undefined control sequence.
-l.103 ... in \texttt{FP16}. An optional thirty\hyp
-                                                  {}two\hyp{}component PCA b...
-
-! Undefined control sequence.
-l.103 ...tt{FP16}. An optional thirty\hyp{}two\hyp
-                                                  {}component PCA basis comp...
-
-! Undefined control sequence.
-l.103 ... compresses $\Delta\varepsilon$ eight\hyp
-                                                  {}fold with negligible loss.
-! Undefined control sequence.
-l.106 OCRA ingests (i) $x_{\tau}$ down\hyp
-                                          {}sampled to $64\times64$, (ii) $\...
-
-! Undefined control sequence.
-l.106 ...nusoidal embedding $e(\tau)$. A depth\hyp
-                                                  {}wise $5\times5$ stem fee...
-
-! Undefined control sequence.
-l.106 ...}wise $5\times5$ stem feeds four FiLM\hyp
-                                                  {}conditioned depth\hyp{}w...
-
-! Undefined control sequence.
-l.106 ...eeds four FiLM\hyp{}conditioned depth\hyp
-                                                  {}wise convolution blocks,...
-
-! Undefined control sequence.
-l.113 subject to spectral\hyp
-                             {}norm clipping that enforces $\lVert\tilde{\De...
-
-! Undefined control sequence.
-<recently read> \lesssim 
-                         
-l.113 ...teps (\,\raisebox{0.6pt}{\tiny$\lesssim$}
-                                                  \,25~min on one NVIDIA A100).
-
-! Undefined control sequence.
-<argument> K\hyp 
-                 {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum}\__mark_debug...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ...bsection \hskip 1em\relax \fi K\hyp 
-                                                  {}Curriculum}\__mark_debug...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ... thesubsection\endcsname }\fi K\hyp 
-                                                  {}Curriculum
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> ... thesubsection\endcsname }\fi K\hyp 
-                                                  {}Curriculum}{\thepage }{\...
-l.115 \subsection{K\hyp{}Curriculum}
-                                    
-! Undefined control sequence.
-<argument> adaptive half\hyp 
-                             {}step gate
-l.127 ...$  \Comment{adaptive half\hyp{}step gate}
-                                                  
-! Undefined control sequence.
-l.137 ...2$ the pipeline makes two expensive U\hyp
-                                                  {}Net calls and two lightw...
-
-! Undefined control sequence.
-l.137 ...A calls, averaging 24~ms per ImageNet\hyp
-                                                  {}64 sample; OCRA contribu...
-
-[3]
-! Undefined control sequence.
-l.140 Replacing the $5\times5$ 2\hyp
-                                    {}D stem with a 1\hyp{}D or 3\hyp{}D dep...
-
-! Undefined control sequence.
-l.140 ...the $5\times5$ 2\hyp{}D stem with a 1\hyp
-                                                  {}D or 3\hyp{}D depth\hyp{...
-
-! Undefined control sequence.
-l.140 ...5$ 2\hyp{}D stem with a 1\hyp{}D or 3\hyp
-                                                  {}D depth\hyp{}wise stem a...
-
-! Undefined control sequence.
-l.140 ...tem with a 1\hyp{}D or 3\hyp{}D depth\hyp
-                                                  {}wise stem adapts OCRA to...
-
-! Undefined control sequence.
-l.140 ...dio and DiT video, respectively. Fine\hyp
-                                                  {}tuning only the new stem...
-
-! Undefined control sequence.
-<argument> Experiment~1: Speed\hyp 
-                                   {}Quality on ImageNet\hyp {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...m\relax \fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...csname }\fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...csname }\fi Experiment~1: Speed\hyp 
-                                                  {}Quality on ImageNet\hyp ...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-<argument> ...Speed\hyp {}Quality on ImageNet\hyp 
-                                                  {}64}{\thepage }{\@current...
-l.144 ...: Speed\hyp{}Quality on ImageNet\hyp{}64}
-                                                  
-! Undefined control sequence.
-l.146   \item \textbf{Backbone}\; EDM\hyp
-                                         {}U\hyp{}Net\hyp{}64 (public release)
-! Undefined control sequence.
-l.146   \item \textbf{Backbone}\; EDM\hyp{}U\hyp
-                                                {}Net\hyp{}64 (public release)
-! Undefined control sequence.
-l.146 ...extbf{Backbone}\; EDM\hyp{}U\hyp{}Net\hyp
-                                                  {}64 (public release)
-! Undefined control sequence.
-l.148   \item \textbf{Schedules}\; DPM\hyp
-                                          {}Solver\raisebox{0.6pt}{++} with ...
-
-! Undefined control sequence.
-l.148 ...0.6pt}{++} with $K\in\{2,3,4,8\}$; 40\hyp
-                                                  {}step EDM serves as upper...
-
-! Undefined control sequence.
-l.150 ...subscript{50k}, Inception Score, CLIP\hyp
-                                                  {}Score, LPIPS, latency (C...
-
-! Undefined control sequence.
-<argument> Experiment~2: Zero\hyp 
-                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}\...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...em\relax \fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}\...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...dcsname }\fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-<argument> ...dcsname }\fi Experiment~2: Zero\hyp 
-                                                  {}Shot Backbone Transfer}{...
-l.154 ...ment~2: Zero\hyp{}Shot Backbone Transfer}
-                                                  
-! Undefined control sequence.
-l.156 ...textbf{Training bank}\; 20\,000 LAION\hyp
-                                                  {}Aesthetic images, backbo...
-
-! Undefined control sequence.
-l.156 ...yp{}Aesthetic images, backbone Stable\hyp
-                                                  {}Diffusion~v1.5
-! Undefined control sequence.
-l.157 ...em \textbf{Evaluation backbones}\; SD\hyp
-                                                  {}v2.1\hyp{}768, DreamShap...
-
-! Undefined control sequence.
-l.157 ...{Evaluation backbones}\; SD\hyp{}v2.1\hyp
-                                                  {}768, DreamShaper\hyp{}8,...
-
-! Undefined control sequence.
-l.157 ...\; SD\hyp{}v2.1\hyp{}768, DreamShaper\hyp
-                                                  {}8, DiT\hyp{}XL/2
-! Undefined control sequence.
-l.157 ...2.1\hyp{}768, DreamShaper\hyp{}8, DiT\hyp
-                                                  {}XL/2
-! Undefined control sequence.
-l.158   \item \textbf{Prompts}\; 5\,000 COCO\hyp
-                                                {}2014 captions for SD pipel...
-
-! Undefined control sequence.
-l.158 ...4 captions for SD pipelines; ImageNet\hyp
-                                                  {}256 class names for DiT
-! Undefined control sequence.
-l.159   \item \textbf{Sampler}\; four\hyp
-                                         {}step DPM\hyp{}Solver\raisebox{0.6...
-
-! Undefined control sequence.
-l.159 ...\textbf{Sampler}\; four\hyp{}step DPM\hyp
-                                                  {}Solver\raisebox{0.6pt}{+...
-
-! Undefined control sequence.
-l.160   \item \textbf{Metrics}\; CLIP\hyp
-                                         {}Score, aesthetic predictor, five\...
-
-! Undefined control sequence.
-l.160 ...hyp{}Score, aesthetic predictor, five\hyp
-                                                  {}rater human A/B, FID\tex...
-
-! Undefined control sequence.
-l.165   \item \textbf{Backbone}\; EDM\hyp
-                                         {}U\hyp{}Net\hyp{}64
-! Undefined control sequence.
-l.165   \item \textbf{Backbone}\; EDM\hyp{}U\hyp
-                                                {}Net\hyp{}64
-! Undefined control sequence.
-l.165 ...extbf{Backbone}\; EDM\hyp{}U\hyp{}Net\hyp
-                                                  {}64
-! Undefined control sequence.
-l.166   \item \textbf{Schedule}\; fixed two\hyp
-                                               {}step solver
-! Undefined control sequence.
-l.174 ... hash and environment YAML, write SHA\hyp
-                                                  {}256 checksums for output...
-
-! Undefined control sequence.
-l.174 ...12~GB VRAM on an RTX~3090 after batch\hyp
-                                                  {}size adjustment.
-! Undefined control sequence.
-<argument> ImageNet\hyp 
-                        {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...n \hskip 1em\relax \fi ImageNet\hyp 
-                                                  {}64}\__mark_debug:n {\iow...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi ImageNet\hyp 
-                                                  {}64
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-! Undefined control sequence.
-<argument> ...section\endcsname }\fi ImageNet\hyp 
-                                                  {}64}{\thepage }{\@current...
-l.178 \subsection{ImageNet\hyp{}64}
-                                   
-[4]
-! Undefined control sequence.
-l.186 Even the aggressive two\hyp
-                                 {}step configuration with OCRA surpasses th...
-
-! Undefined control sequence.
-l.186 ...uration with OCRA surpasses the eight\hyp
-                                                  {}step baseline, confirmin...
-
-! Undefined control sequence.
-<argument> Zero\hyp 
-                    {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer}\__mark_de...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...ction \hskip 1em\relax \fi Zero\hyp 
-                                                  {}Shot Transfer}\__mark_de...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...esubsection\endcsname }\fi Zero\hyp 
-                                                  {}Shot Transfer
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-<argument> ...esubsection\endcsname }\fi Zero\hyp 
-                                                  {}Shot Transfer}{\thepage ...
-l.188 \subsection{Zero\hyp{}Shot Transfer}
-                                          
-! Undefined control sequence.
-l.189 A single OCRA trained on Stable\hyp
-                                         {}Diffusion~v1.5 improves unseen ba...
-
-! Undefined control sequence.
-l.191   \item SD\hyp
-                    {}v2.1\hyp{}768\; CLIP\hyp{}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.191   \item SD\hyp{}v2.1\hyp
-                              {}768\; CLIP\hyp{}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.191   \item SD\hyp{}v2.1\hyp{}768\; CLIP\hyp
-                                              {}Score $+0.58$, Aesthetic $+0...
-
-! Undefined control sequence.
-l.192   \item DreamShaper\hyp
-                             {}8\; CLIP\hyp{}Score $+0.62$, Aesthetic $+0.41...
-
-! Undefined control sequence.
-l.192   \item DreamShaper\hyp{}8\; CLIP\hyp
-                                           {}Score $+0.62$, Aesthetic $+0.41...
-
-! Undefined control sequence.
-l.193   \item DiT\hyp
-                     {}XL/2\; FID 6.8$\rightarrow$5.9 ($-0.9$).
-! Undefined control sequence.
-l.209   \item DPM\hyp
-                     {}Aligner at $K{=}2$ reports FID~3.57 on ImageNet\hyp{}...
-
-! Undefined control sequence.
-l.209 ... $K{=}2$ reports FID~3.57 on ImageNet\hyp
-                                                  {}64 \cite{xia_2023_toward...
-
-! Undefined control sequence.
-l.211   \item Stacking Analytic\hyp
-                                   {}DPM with OCRA further drops FID to 3.26...
-
-! Undefined control sequence.
-l.219 We have shown that a persistent one\hyp
-                                             {}to\hyp{}three\hyp{}degree ang...
-
-! Undefined control sequence.
-l.219 ...e shown that a persistent one\hyp{}to\hyp
-                                                  {}three\hyp{}degree angula...
-
-! Undefined control sequence.
-l.219 ...t a persistent one\hyp{}to\hyp{}three\hyp
-                                                  {}degree angular bias betw...
-
-! Undefined control sequence.
-l.219 ...e primary quality bottleneck of ultra\hyp
-                                                  {}low\hyp{}step diffusion ...
-
-! Undefined control sequence.
-l.219 ... quality bottleneck of ultra\hyp{}low\hyp
-                                                  {}step diffusion sampling....
-
-! Undefined control sequence.
-l.219 ...ion sampling. By exploiting the small\hyp
-                                                  {}norm, near\hyp{}collinea...
-
-! Undefined control sequence.
-l.219 ... exploiting the small\hyp{}norm, near\hyp
-                                                  {}collinear and time\hyp{}...
-
-! Undefined control sequence.
-l.219 ...p{}norm, near\hyp{}collinear and time\hyp
-                                                  {}smooth structure of the ...
-
-! Undefined control sequence.
-l.219 ...ual field we introduced OCRA, a 1.5~M\hyp
-                                                  {}parameter adapter that c...
-
-! Undefined control sequence.
-l.219 ...igible runtime cost, and delivers two\hyp
-                                                  {} to five\hyp{}fold speed...
-
-! Undefined control sequence.
-l.219 ... cost, and delivers two\hyp{} to five\hyp
-                                                  {}fold speed\hyp{}ups and ...
-
-! Undefined control sequence.
-l.219 ...ers two\hyp{} to five\hyp{}fold speed\hyp
-                                                  {}ups and up to 55\% energ...
-
-! Undefined control sequence.
-l.219 ...xtensive experiments demonstrate zero\hyp
-                                                  {}shot transfer across bac...
-
-! Undefined control sequence.
-l.219 ...erical robustness secured by spectral\hyp
-                                                  {}norm clipping and adapti...
-
-! Undefined control sequence.
-l.219 ...ve gating, and superiority over state\hyp
-                                                  {}of\hyp{}the\hyp{}art tim...
-
-! Undefined control sequence.
-l.219 ...g, and superiority over state\hyp{}of\hyp
-                                                  {}the\hyp{}art timestep an...
-
-! Undefined control sequence.
-l.219 ...periority over state\hyp{}of\hyp{}the\hyp
-                                                  {}art timestep and transpo...
-
-(./paper.bbl [5]) [6] (./paper.aux) )
-(see the transcript file for additional information)</usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on paper.pdf (6 pages, 176522 bytes).
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/base/8r.enc}] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+(./paper.bbl) [2] (./paper.aux) )</usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on paper.pdf (2 pages, 73977 bytes).
 Transcript written on paper.log.
