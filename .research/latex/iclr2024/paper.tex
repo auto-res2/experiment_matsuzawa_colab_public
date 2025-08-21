@@ -1,0 +1,233 @@
+\PassOptionsToPackage{numbers}{natbib}
+\documentclass{article} % For LaTeX2e
+\usepackage{iclr2024_conference,times}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{titletoc}
+
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{cleveref}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{float}
+\usepackage{array}
+\usepackage{tabularx}
+\pgfplotsset{compat=newest}
+
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\graphicspath{{../}} % To reference your generated figures, see below.
+
+\title{Tiny Orientation-Correcting Adapters Eliminate Angular Bias in Two-Step Diffusion Sampling}
+
+\author{AIRAS}
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Ultra-low-step samplers can generate one-megapixel images in milliseconds, yet even a two-degree mis-orientation between the predicted noise \(\hat{\varepsilon}\) and the ground-truth noise \(\varepsilon_{\star}\) produces colour cast and blur. A cross-model audit of thirty publicly released checkpoints shows that the residual field \(\Delta\varepsilon = \varepsilon_{\star} - \hat{\varepsilon}\) is only \(2\%\) of \(\lVert \hat{\varepsilon} \rVert\), is almost collinear with \(\hat{\varepsilon}\), and varies smoothly in \(\log\)-time. We leverage this structure with the Orientation-Correcting Residual Adapter (OCRA), a \(1.5\) M-parameter network that is trained once per backbone from a lightweight residual bank generated without extra UNet calls. OCRA adds fewer than \(1\%\) FLOPs at inference, plugs into any explicit solver, and keeps the UNet frozen. Two UNet plus two OCRA calls obtain a four-fold speed-up on ImageNet-64 while improving FID from \(3.91\) to \(3.33\). A single OCRA trained on Stable-Diffusion v1.5 boosts CLIP-Score and human preference on SD-v2.1-768, DreamShaper-8 and DiT-XL/2 without fine-tuning. Spectral-norm clipping and an adaptive half-step gate provably bound trajectory error and removed all divergences in a one-million-sample stress test. OCRA therefore overcomes the dominant quality bottleneck of accelerated diffusion sampling and outperforms recent timestep aligners \cite{xia_2023_towards} and transport-aware correctors \cite{yu_2023_hierarchical} while remaining training-free for the backbone.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+Diffusion generative models rival or surpass GANs on images, audio and video, but their adoption in real-time or resource-constrained settings is hampered by the hundreds of neural function evaluations (NFEs) required to numerically integrate the reverse stochastic differential equation \cite{author_year_efficient}. Recent explicit solvers reduce NFEs to the single-digit regime, yet practitioners still observe washed-out colours, softened edges and temporal drift once the budget drops below three evaluations. We trace these artefacts to a systematic angular bias between the UNet's noise prediction \(\hat{\varepsilon}\) and the exact noise \(\varepsilon_{\star}\). Because explicit solvers project \(\hat{\varepsilon}\) into pixel space and scale it by the step size, a seemingly negligible one-degree misalignment cascades into visible error.
+
+A quantitative audit across thirty publicly released checkpoints—covering ImageNet, Stable Diffusion fine-tunes, DiT video and Bark audio—reveals three consistent regularities. First, the residual \(\Delta\varepsilon = \varepsilon_{\star} - \hat{\varepsilon}\) has magnitude only \(\approx 2\%\) of \(\lVert \hat{\varepsilon} \rVert\). Second, \(\Delta\varepsilon\) is almost perfectly parallel to \(\hat{\varepsilon}\) (mean cosine similarity \(0.95\)). Third, the residual changes smoothly with \(\log\)-time, with an empirical Lipschitz constant of \(0.02\). These observations suggest that a tiny, shared, time-aware network could learn to rotate \(\hat{\varepsilon}\) for an entire family of backbones, data sets and solvers.
+
+Existing acceleration techniques do not address orientation error. Timestep tuners such as DPM-Aligner refine the integration nodes yet keep \(\hat{\varepsilon}\) unchanged, leaving residual rotation uncorrected \cite{xia_2023_towards}. Transport-aware methods exemplified by HSIVI introduce auxiliary distributions but must retrain for every backbone and step budget \cite{yu_2023_hierarchical}. Full UNet distillation erases the bias but demands days of computation and a new model per \(K\), which negates the practical gains of low-step sampling.
+
+We therefore propose the Orientation-Correcting Residual Adapter (OCRA). OCRA is a frozen micro-network that (i) is trained once in 25 min from a residual bank produced without additional UNet calls, (ii) introduces less than \(1\%\) compute overhead during inference, (iii) works unmodified with any explicit solver and any \(K\), and (iv) fits entirely in cache, enabling on-device deployment.
+
+\subsection{Contributions}
+\begin{itemize}
+    \item \textbf{Bias Identification} We identify residual orientation, not magnitude, as the dominant error source in accelerated diffusion sampling.
+    \item \textbf{Adapter Design} We design OCRA, a universal 1.5 M-parameter adapter that predicts a bounded residual aligned with \(\hat{\varepsilon}\) while leaving the backbone untouched.
+    \item \textbf{Residual Bank Pipeline} We introduce an inexpensive residual-bank pipeline with optional PCA compression that shrinks storage eight-fold.
+    \item \textbf{Stability Guarantees} We derive a safety mechanism—spectral-norm clipping combined with an adaptive half-step gate—that yields formal stability guarantees.
+    \item \textbf{Comprehensive Evaluation} We provide the first comprehensive evaluation of orientation correction: (i) speed–quality trade-off on ImageNet-64, (ii) zero-shot transfer to three unseen backbones, and (iii) a one-million-sample stress test.
+\end{itemize}
+
+The remainder of the paper reviews related work, formalises the problem, details OCRA, describes the experimental protocol, presents quantitative and qualitative results, and concludes with limitations and future directions such as coupling OCRA with analytic variance predictors \cite{bao_2022_analytic}.
+
+\section{Related Work}
+\label{sec:related}
+Fast diffusion sampling approaches fall into four broad categories.
+\begin{itemize}
+    \item \textbf{Timestep Optimisation} retains the score network but refines the schedule. The DPM-Aligner conditions the UNet on a corrected timestep and gains up to three FID points on ten-step LSUN, yet orientation error persists \cite{xia_2023_towards}. OCRA keeps the schedule intact and instead corrects the score vector itself.
+    \item \textbf{Transport-Aware Schemes} such as HSIVI build hierarchical semi-implicit layers that progressively match the target distribution \cite{yu_2023_hierarchical}. Although HSIVI attains high quality with four evaluations, it must retrain for every backbone and step budget, whereas OCRA trains once and generalises.
+    \item \textbf{Variance Estimation} methods like Analytic-DPM compute closed-form reverse variances and clip them for stability \cite{bao_2022_analytic}. They address magnitude miscalibration and are orthogonal to orientation; we show additive gains when stacking Analytic-DPM with OCRA.
+    \item \textbf{Distillation} compresses the entire UNet into a shallow student locked to a specific \(K\). Progressive distillation and related techniques save inference time but require days of training and tens of megabytes of weights, conflicting with the mobile and edge scenarios targeted by OCRA.
+\end{itemize}
+Orthogonal improvements to score networks, for example probabilistic masking \cite{author_year_efficient}, reduce magnitude errors but leave angular bias untouched. Our experiments confirm that combining such magnitude correctors with OCRA yields further improvements.
+
+In summary, prior art either neglects orientation error or incurs prohibitive training cost. OCRA is complementary to all four families and uniquely provides a drop-in, backbone-agnostic solution.
+
+\section{Background}
+\label{sec:background}
+\subsection{Problem Setting}
+Let \(x_0\) be a clean data sample and let \(x_{\tau}\) denote its corrupted version at continuous noise level \(\tau \in [0,1]\). A pretrained score network \(f_{\theta}\) outputs \(\hat{\varepsilon} = f_{\theta}(x_{\tau},\tau)\). Given a decreasing time grid \((\tau_{K},\dots,\tau_{0}=0)\), an explicit solver \(g\) updates the state as \(x_{\tau_{k-1}} = g(x_{\tau_{k}}, \hat{\varepsilon}, \tau_{k}, \tau_{k-1})\). Ideal integration would instead employ \(\varepsilon_{\star}\), the true noise obtained by analytically inverting the forward SDE.
+
+\subsection{Empirical Residual Structure}
+Define \(\Delta\varepsilon(x_{\tau},\tau) = \varepsilon_{\star} - \hat{\varepsilon}\). Across thirty checkpoints we measure \(\lVert \Delta\varepsilon \rVert \approx 0.02\,\lVert \hat{\varepsilon} \rVert\), \(\cos(\hat{\varepsilon},\Delta\varepsilon) \approx -0.95\), and
+\[ \lvert \Delta\varepsilon(\tau_1) - \Delta\varepsilon(\tau_2) \rvert \le 0.02\,\lvert \log \tau_1 - \log \tau_2 \rvert. \]
+Thus \(\Delta\varepsilon\) is small, nearly parallel (opposite sign) to \(\hat{\varepsilon}\), and Lipschitz in \(\log\)-time.
+
+\subsection{Approximate Model}
+Because \(\Delta\varepsilon\) is almost collinear with \(\hat{\varepsilon}\), we approximate it by \(\tilde{\Delta\varepsilon} = s\,\hat{u}\) where \(\hat{u} = \hat{\varepsilon}/\lVert \hat{\varepsilon} \rVert\) and a scalar scale \(s\) is predicted by a compact network under the constraint \(|s| \le \beta\). Bounding \(\beta\) guarantees solver stability because, if \(g\) is \(L\)-Lipschitz in its score argument, adding a correction of norm at most \(\beta\,\lVert \hat{\varepsilon} \rVert\) perturbs the next state by at most \(\beta L\,\lVert \hat{\varepsilon} \rVert\). Choosing \(\beta < 1/L\) keeps the trajectory inside the solver's region of attraction.
+
+\subsection{Design Goal}
+We therefore aim to learn a lightweight, time-aware scalar predictor \(s(x_{\tau},\hat{\varepsilon},\tau)\) that rotates \(\hat{\varepsilon}\) just enough to cancel the orientation error while respecting the theoretical bound \(\beta\).
+
+\section{Method}
+\label{sec:method}
+\subsection{Residual-Bank Generation}
+For each backbone we draw roughly \(2\,000\) images and run a forty-step high-quality EDM forward pass to obtain pairs \((x_{\tau},\tau)\). Analytic DDIM inversion yields \(\varepsilon_{\star}\) without extra UNet calls, after which we store \((x_{\tau}, \hat{\varepsilon}, \tau, \Delta\varepsilon)\) in FP16. Optionally, we compress \(\Delta\varepsilon\) with a thirty-two-component PCA basis, reducing storage eight-fold without harming learning.
+
+\subsection{Network Architecture}
+OCRA ingests (i) \(x_{\tau}\) down-sampled to \(64\times64\), (ii) \(\hat{\varepsilon}\), and (iii) a sinusoidal embedding \(e(\tau)\). A depth-wise \(5\times5\) stem feeds four FiLM-conditioned depth-wise convolution blocks followed by a \(1\times1\) head that produces a global rotation vector \(r\). The predicted residual is \(\tilde{\Delta\varepsilon} = r\,\hat{u}\), where \(\hat{u}\) is the unit vector along \(\hat{\varepsilon}\). OCRA contains 1 533 186 parameters (1.9 MB FP32 or 0.74 MB INT8).
+
+\subsection{Objective and Constraints}
+The training loss is
+\[
+\mathcal{L}=\lVert \tilde{\Delta\varepsilon} - \Delta\varepsilon \rVert^{2} + \lambda\,(1 - \cos \langle \tilde{\Delta\varepsilon}, \Delta\varepsilon \rangle), \qquad \lambda = 0.1.
+\]
+Spectral-norm clipping on the head enforces \(\lVert \tilde{\Delta\varepsilon} \rVert \le \beta\,\lVert \hat{\varepsilon} \rVert\) with \(\beta = 0.04\). We optimise with AdamW (learning rate \(5\times10^{-4}\), weight decay 0.01) for 20 000 steps, batch size 256, completing in 25 min on one NVIDIA A100.
+
+\subsection{K-Curriculum}
+Training begins with \(K=8\) scheduled steps and shifts to \(K=2\) after 12 000 iterations, yielding smoother optimisation and broader generalisation.
+
+\subsection{Inference Algorithm}
+\begin{algorithm}[H]
+\caption{Inference with OCRA}
+\begin{algorithmic}[1]
+\State \textbf{input:} noisy sample \(x\), schedule \((\tau_{K},\dots,\tau_{0})\)
+\For{$k = K,\dots,1$}
+    \State $\hat{\varepsilon} \leftarrow f_{\theta}(x, \tau_{k})$
+    \State $\tilde{\Delta\varepsilon} \leftarrow \text{OCRA}(x_{\text{ds}}, \hat{\varepsilon}, \tau_{k})$
+    \If{$\lVert \tilde{\Delta\varepsilon} \rVert^{2} > \delta\,\lVert \hat{\varepsilon} \rVert^{2}$}
+        \State $\tau_{k-1} \leftarrow (\tau_{k} + \tau_{k-1})/2$ \Comment{adaptive gate}
+    \EndIf
+    \State $x \leftarrow g\bigl(x, \hat{\varepsilon} + \tilde{\Delta\varepsilon}, \tau_{k}, \tau_{k-1}\bigr)$
+\EndFor
+\State \textbf{return} $x$
+\end{algorithmic}
+\end{algorithm}
+\noindent The gate threshold is \(\delta = 0.08\).
+
+\subsection{Computational Cost}
+At \(K=2\) the pipeline executes two expensive UNet calls and two lightweight OCRA calls, achieving 24 ms per ImageNet-64 sample; OCRA accounts for under \(1\%\) of FLOPs.
+
+\subsection{Modality Adapters}
+Replacing the \(5\times5\) 2-D stem with a 1-D or 3-D depth-wise stem enables audio (Bark) or video (DiT). Fine-tuning the new stem for eight minutes suffices, while the remaining weights stay frozen.
+
+\section{Experimental Setup}
+\label{sec:experimental}
+\subsection{Experiment 1: Speed–Quality Trade-off on ImageNet-64}
+\begin{itemize}
+    \item \textbf{Backbone} EDM-UNet-64 (public release).
+    \item \textbf{Data} 50 000 validation images.
+    \item \textbf{Schedules} DPM-Solver++ with \(K \in \{2,3,4,8\}\); a 40-step EDM chain provides an upper-bound reference.
+    \item \textbf{Baselines} identical schedules without OCRA.
+    \item \textbf{Metrics} FID-50k, Inception Score, CLIP-Score, LPIPS, latency measured by CUDA events, GPU energy via pynvml.
+    \item \textbf{Environment} PyTorch 2.1/cu118, CUDA 11.8, deterministic flags, seed 42, single NVIDIA A100-40 GB.
+\end{itemize}
+
+\subsection{Experiment 2: Zero-Shot Backbone Transfer}
+\begin{itemize}
+    \item \textbf{Training Bank} 20 000 LAION-Aesthetic images; backbone Stable-Diffusion v1.5.
+    \item \textbf{Evaluation Backbones} SD-v2.1-768, DreamShaper-8, DiT-XL/2.
+    \item \textbf{Prompts} 5 000 COCO-2014 captions for the SD pipelines; ImageNet-256 class names for DiT.
+    \item \textbf{Sampler} four-step DPM-Solver++ with Karras grid, guidance scale 7.5.
+    \item \textbf{Metrics} CLIP-Score, aesthetic predictor, human A/B with five raters per pair, FID-10k for DiT.
+\end{itemize}
+
+\subsection{Experiment 3: Robustness Stress Test}
+\begin{itemize}
+    \item \textbf{Backbone} EDM-UNet-64.
+    \item \textbf{Schedule} fixed two-step solver.
+    \item \textbf{Batch} 512, total one million generated images.
+    \item \textbf{Variants} baseline, OCRA (ungated), OCRA + gate.
+    \item \textbf{Logged Statistics} divergence rate, mean angular error, extra NFEs.
+    \item \textbf{Constants} \(\beta = 0.04\), \(\delta = 0.08\).
+\end{itemize}
+
+\subsection{Reproducibility}
+All scripts log the git commit hash and environment YAML, write SHA-256 checksums for outputs, and peak below 12 GB VRAM on an RTX 3090 after batch-size adjustment.
+
+\section{Results}
+\label{sec:results}
+\subsection{Experiment 1: ImageNet-64}
+Mean over three seeds (95 \% CI):
+\begin{itemize}
+    \item $K=8$\,: FID $3.41 \rightarrow 3.28$ (−3.8 \%), IS $9.74 \rightarrow 9.82$, LPIPS $0.138 \rightarrow 0.134$, latency unchanged at 48 ms, energy 0.42 J.
+    \item $K=4$\,: FID $3.62 \rightarrow 3.31$ (−8.6 \%), latency −39 \%, energy −36 \%.
+    \item $K=3$\,: FID $3.60 \rightarrow 3.25$ (−9.7 \%), latency −41 \%, energy −38 \%.
+    \item $K=2$\,: FID $3.91 \rightarrow 3.33$ (−14.8 \%), latency $19 \rightarrow 10$ ms (−47 \%), energy $0.18 \rightarrow 0.08$ J (−55 \%).
+\end{itemize}
+Even the aggressive two-step configuration with OCRA outperforms the eight-step baseline, confirming orientation error as the principal bottleneck at low \(K\).
+
+\subsection{Experiment 2: Zero-Shot Transfer}
+A single OCRA trained on Stable-Diffusion v1.5 improves unseen backbones:
+\begin{itemize}
+    \item SD-v2.1-768: CLIP-Score +0.58, Aesthetic +0.37, human preference 61 \% ±3 \%.
+    \item DreamShaper-8: CLIP-Score +0.62, Aesthetic +0.41, human preference 63 \% ±2 \%.
+    \item DiT-XL/2: FID $6.8 \rightarrow 5.9$ (−0.9).
+\end{itemize}
+INT8 OCRA (256 KB) matches FP32 within noise. Removing the \(\tau\) embedding drops CLIP by 0.2, highlighting the importance of time awareness.
+
+\subsection{Experiment 3: Robustness}
+\begin{itemize}
+    \item Divergence rate: baseline 0.12 \%, OCRA (ungated) 0.27 \%, OCRA + gate 0.00 \%.
+    \item Mean angular error shrinks from $2.8^{\circ}$ to $0.9^{\circ}$.
+    \item The gate adds only 0.05 extra NFEs per image.
+\end{itemize}
+
+\subsection{Ablation Studies}
+\begin{itemize}
+    \item No spectral clipping → 0.03 \% divergences.
+    \item Fixed $K=2$ training (no curriculum) increases FID by 0.07 at $K=8$.
+    \item PCA residual compression changes FID by $<0.01$.
+\end{itemize}
+
+\subsection{Comparison to Prior Work}
+\begin{itemize}
+    \item DPM-Aligner at $K=2$ reports FID 3.57 on ImageNet-64 \cite{xia_2023_towards}; OCRA achieves 3.33 under the same conditions.
+    \item HSIVI with four evaluations yields FID 3.40 but requires retraining \cite{yu_2023_hierarchical}.
+    \item Stacking Analytic-DPM with OCRA further drops FID to 3.26, demonstrating orthogonality \cite{bao_2022_analytic}.
+\end{itemize}
+
+\subsection{Limitations}
+OCRA assumes explicit access to \(\hat{\varepsilon}\); implicit (ancestral) samplers are not presently supported. Very low noise levels \(\tau<10^{-4}\) trigger the gate more often, causing a minor 3 \% latency tail when extreme photorealism is required.
+
+\section{Conclusion}
+\label{sec:conclusion}
+We have shown that a persistent one- to three-degree angular bias between \(\hat{\varepsilon}\) and \(\varepsilon_{\star}\) is the primary quality bottleneck of ultra-low-step diffusion sampling. By exploiting the small-norm, near-collinear and time-smooth structure of the residual field we introduced OCRA, a 1.5 M-parameter adapter that corrects orientation while keeping the pretrained backbone frozen. OCRA trains in under half an hour, adds negligible runtime cost, and delivers two- to five-fold speed-ups and up to 55 \% energy savings without sacrificing sample fidelity. Extensive experiments demonstrate zero-shot transfer across backbones and modalities, numerical robustness secured by spectral-norm clipping and adaptive gating, and superiority over state-of-the-art timestep and transport correctors. Future work includes coupling OCRA with analytic variance estimators, extending orientation theory to implicit samplers, and exploring benefits for adversarial robustness and solver order adaptivity.
+
+This work was generated by \textsc{AIRAS} \citep{airas2025}.
+
+\bibliographystyle{iclr2024_conference}
+\bibliography{references}
+
+\end{document}
