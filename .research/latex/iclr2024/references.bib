@@ -5,3 +5,87 @@
   publisher = {GitHub},
   url       = {https://github.com/airas-org/airas}
 }
+
+% ===========================================
+% REQUIRED CITATIONS
+% These papers must be cited in the manuscript
+% ===========================================
+
+@article{author_year_efficient,
+ title = {Efficient Denoising Diffusion via Probabilistic Masking}
+}
+
+@article{xia_2023_towards,
+ abstract = {A diffusion model, which is formulated to produce an image using thousands of
+denoising steps, usually suffers from a slow inference speed. Existing
+acceleration algorithms simplify the sampling by skipping most steps yet
+exhibit considerable performance degradation. By viewing the generation of
+diffusion models as a discretized integrating process, we argue that the
+quality drop is partly caused by applying an inaccurate integral direction to a
+timestep interval. To rectify this issue, we propose a timestep aligner that
+helps find a more accurate integral direction for a particular interval at the
+minimum cost. Specifically, at each denoising step, we replace the original
+parameterization by conditioning the network on a new timestep, which is
+obtained by aligning the sampling distribution to the real distribution.
+Extensive experiments show that our plug-in design can be trained efficiently
+and boost the inference performance of various state-of-the-art acceleration
+methods, especially when there are few denoising steps. For example, when using
+10 denoising steps on the popular LSUN Bedroom dataset, we improve the FID of
+DDIM from 9.65 to 6.07, simply by adopting our method for a more appropriate
+set of timesteps. Code will be made publicly available.},
+ arxiv_url = {https://arxiv.org/pdf/2310.09469v1.pdf},
+ author = {Mengfei Xia and Yujun Shen and Changsong Lei and Yu Zhou and Ran Yi and Deli Zhao and Wenping Wang and Yong-jin Liu},
+ title = {Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner},
+ year = {2023}
+}
+
+@article{yu_2023_hierarchical,
+ abstract = {Semi-implicit variational inference (SIVI) has been introduced to expand the
+analytical variational families by defining expressive semi-implicit
+distributions in a hierarchical manner. However, the single-layer architecture
+commonly used in current SIVI methods can be insufficient when the target
+posterior has complicated structures. In this paper, we propose hierarchical
+semi-implicit variational inference, called HSIVI, which generalizes SIVI to
+allow more expressive multi-layer construction of semi-implicit distributions.
+By introducing auxiliary distributions that interpolate between a simple base
+distribution and the target distribution, the conditional layers can be trained
+by progressively matching these auxiliary distributions one layer after
+another. Moreover, given pre-trained score networks, HSIVI can be used to
+accelerate the sampling process of diffusion models with the score matching
+objective. We show that HSIVI significantly enhances the expressiveness of SIVI
+on several Bayesian inference problems with complicated target distributions.
+When used for diffusion model acceleration, we show that HSIVI can produce high
+quality samples comparable to or better than the existing fast diffusion model
+based samplers with a small number of function evaluations on various datasets.},
+ arxiv_url = {https://arxiv.org/pdf/2310.17153v1.pdf},
+ author = {Longlin Yu and Tianyu Xie and Yu Zhu and Tong Yang and Xiangyu Zhang and Cheng Zhang},
+ github_url = {https://github.com/longinYu/HSIVI},
+ title = {Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration},
+ year = {2023}
+}
+
+% ===========================================
+% REFERENCE CANDIDATES
+% Additional reference papers for context
+% ===========================================
+
+@article{bao_2022_analytic,
+ abstract = {Diffusion probabilistic models (DPMs) represent a class of powerful
+generative models. Despite their success, the inference of DPMs is expensive
+since it generally needs to iterate over thousands of timesteps. A key problem
+in the inference is to estimate the variance in each timestep of the reverse
+process. In this work, we present a surprising result that both the optimal
+reverse variance and the corresponding optimal KL divergence of a DPM have
+analytic forms w.r.t. its score function. Building upon it, we propose
+Analytic-DPM, a training-free inference framework that estimates the analytic
+forms of the variance and KL divergence using the Monte Carlo method and a
+pretrained score-based model. Further, to correct the potential bias caused by
+the score-based model, we derive both lower and upper bounds of the optimal
+variance and clip the estimate for a better result. Empirically, our
+analytic-DPM improves the log-likelihood of various DPMs, produces high-quality
+samples, and meanwhile enjoys a 20x to 80x speed up.},
+ arxiv_url = {https://arxiv.org/pdf/2201.06503v3.pdf},
+ author = {Fan Bao and Chongxuan Li and Jun Zhu and Bo Zhang},
+ title = {Analytic-dpm: an analytic estimate of the optimal reverse variance in diffusion probabilistic models.},
+ year = {2022}
+}
